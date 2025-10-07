@@ -1,73 +1,45 @@
 <template>
-  <el-container>
-    <AppHeader :mode="mode" @change-mode="mode = $event" />
+  <div class="common-layout">
     <el-container>
-      <el-aside width="300px">
-        <el-menu class="channel-list" unique-opened>
-          <el-sub-menu v-for="group in groups" :key="group" :index="group">
-            <template #title>
-              {{ group }}
+      <el-header><AppHeader :mode="mode" @change-mode="mode = $event" /></el-header>
+      <el-container>
+        <el-aside width="200px">Aside</el-aside>
+        <el-main class="main">
+          <div class="form-container">
+            <ChannelForm
+              :mode="mode"
+              v-model:m3uUrl="m3uUrl"
+              v-model:xtreamHost="xtreamHost"
+              v-model:xtreamUser="xtreamUser"
+              v-model:xtreamPass="xtreamPass"
+              @load-from-url="loadFromUrl"
+              @load-from-xtream="loadFromXtream"
+            />
+          </div>
+          <div v-if="selectedChannel">
+            <h2>{{ selectedChannel.name }}</h2>
+            <div class="video-format">Formato detectado: {{ getFormat(selectedChannel.url) }}</div>
+            <template v-if="isSupportedFormat(selectedChannel.url)">
+              <div class="video-container">
+                <video ref="videoRef" controls autoplay width="100%" @error="onVideoError"></video>
+              </div>
+              <div v-if="videoError" class="video-error">
+                No se pudo cargar el canal. El servidor no responde o el formato no es compatible.
+              </div>
             </template>
-            <el-menu-item
-              v-for="channel in groupedChannels[group]"
-              :key="channel.name + channel.url"
-              @click="selectChannel(channel)"
-            >
-              <img v-if="channel.logo" :src="channel.logo" alt="logo" class="channel-logo" />
-              <span class="channel-title">{{ channel.name }}</span>
-            </el-menu-item>
-          </el-sub-menu>
-        </el-menu>
-      </el-aside>
-      <el-main class="main">
-        <div class="form-container">
-          <template v-if="mode === 'm3u'">
-            <el-input
-              v-model="m3uUrl"
-              placeholder="Pega la URL de tu archivo M3U"
-              class="url-input"
-              clearable
-            />
-            <el-button @click="loadFromUrl" type="primary" size="small" style="margin-top: 8px">
-              Cargar canales
-            </el-button>
-          </template>
-          <template v-else>
-            <el-input
-              v-model="xtreamHost"
-              placeholder="Host (ej: http://example.com:port)"
-              class="url-input"
-            />
-            <el-input v-model="xtreamUser" placeholder="Usuario" class="url-input" />
-            <el-input v-model="xtreamPass" placeholder="Contraseña" class="url-input" />
-            <el-button @click="loadFromXtream" type="primary" size="small" style="margin-top: 8px">
-              Cargar Xtream
-            </el-button>
-          </template>
-        </div>
-        <div v-if="selectedChannel">
-          <h2>{{ selectedChannel.name }}</h2>
-          <div class="video-format">Formato detectado: {{ getFormat(selectedChannel.url) }}</div>
-          <template v-if="isSupportedFormat(selectedChannel.url)">
-            <div class="video-container">
-              <video ref="videoRef" controls autoplay width="100%" @error="onVideoError"></video>
-            </div>
-            <div v-if="videoError" class="video-error">
-              No se pudo cargar el canal. El servidor no responde o el formato no es compatible.
-            </div>
-          </template>
-          <template v-else>
-            <div class="video-error">
-              Este canal no es compatible en el navegador (solo .m3u8 o .mp4).
-            </div>
-          </template>
-        </div>
-        <div v-else>
-          <p>Selecciona un canal para reproducir</p>
-        </div>
-      </el-main>
+            <template v-else>
+              <div class="video-error">
+                Este canal no es compatible en el navegador (solo .m3u8 o .mp4).
+              </div>
+            </template>
+          </div>
+          <div v-else>
+            <p>Selecciona un canal para reproducir</p>
+          </div>
+        </el-main>
+      </el-container>
     </el-container>
-  </el-container>
+  </div>
 </template>
 
 <script setup>
@@ -218,13 +190,6 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped>
-.header {
-  background: #f5f7fa;
-  padding: 16px 24px;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #ebeef5;
-}
 .main {
   height: 100vh;
   padding-top: 24px;
@@ -274,5 +239,13 @@ onBeforeUnmount(() => {
   height: 100%;
   min-height: 300px;
   background: #000;
+}
+
+.el-header {
+  background-color: var(--el-fill-color-light);
+}
+
+.el-aside {
+  background-color: var(--el-color-primary-light-9);
 }
 </style>

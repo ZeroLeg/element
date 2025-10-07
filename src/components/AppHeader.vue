@@ -1,5 +1,5 @@
 <template>
-  <el-header class="header">
+  <div class="header">
     <el-button
       type="primary"
       :plain="mode !== 'm3u'"
@@ -11,7 +11,7 @@
     <el-button type="primary" :plain="mode !== 'xtream'" @click="$emit('change-mode', 'xtream')">
       Xtream
     </el-button>
-  </el-header>
+  </div>
 </template>
 
 <script setup>
@@ -25,11 +25,6 @@ defineProps({
 
 <style scoped>
 .header {
-  background: #f5f7fa;
   padding: 16px 24px;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #ebeef5;
-  width: 100%;
 }
 </style>
