@@ -16,6 +16,8 @@
         </svg>
       </span>
     </el-button>
+
+    <el-button plain @click="OpenCloseDialog"> Click to open the Dialog </el-button>
     <el-button
       type="primary"
       :plain="mode !== 'm3u'"
@@ -40,7 +42,17 @@ const props = defineProps({
     type: Boolean,
     default: false,
   },
+  dialogVisible: {
+    type: Boolean,
+    default: false,
+  },
 })
+
+const emit = defineEmits(['update:dialogVisible'])
+
+const OpenCloseDialog = () => {
+  emit('update:dialogVisible', !props.dialogVisible)
+}
 </script>
 
 <style scoped>
@@ -58,14 +70,18 @@ const props = defineProps({
 }
 svg rect {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-origin: center; /* 🔥 Clave: rota desde el centro */
 }
-svg.burger-open .rect1 {
-  transform: translateY(5.25px) rotate(45deg);
+
+/* svg.burger-open .rect1 {
+  transform: translate(-5.25px, 5.25px) rotate(45deg);
 }
+
 svg.burger-open .rect2 {
   opacity: 0;
 }
+
 svg.burger-open .rect3 {
-  transform: translateY(-5.25px) rotate(-45deg);
-}
+  transform: translate(-4.75px, -1.75px) rotate(-45deg);
+} */
 </style>

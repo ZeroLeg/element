@@ -5,6 +5,7 @@
         <AppHeader
           :mode="mode"
           :isAsideOpen="isAsideOpen"
+          @update:dialogVisible="dialogVisible = $event"
           @change-mode="mode = $event"
           @toggle-aside="isAsideOpen = !isAsideOpen"
         />
@@ -75,6 +76,16 @@
         </el-main>
       </el-container>
     </el-container>
+
+    <el-dialog v-model="dialogVisible" title="Tips" width="500" :before-close="handleClose">
+      <span>This is a message</span>
+      <template #footer>
+        <div class="dialog-footer">
+          <el-button @click="dialogVisible = false">Cancel</el-button>
+          <el-button type="primary" @click="dialogVisible = false"> Confirm </el-button>
+        </div>
+      </template>
+    </el-dialog>
   </div>
 </template>
 
@@ -87,11 +98,12 @@ import ChannelForm from './components/ChannelForm.vue'
 
 import { channelsDefault } from './channels.js'
 
-const channels = ref(channelsDefault)
+const channels = ref([])
 const selectedChannel = ref(null)
 const m3uUrl = ref('')
 const videoRef = ref(null)
 const videoError = ref(false)
+const dialogVisible = ref(false)
 const mode = ref('m3u')
 const xtreamHost = ref('')
 const xtreamUser = ref('')
