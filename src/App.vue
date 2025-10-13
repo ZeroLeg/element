@@ -1,18 +1,17 @@
 <template>
-  <div class="common-layout">
+  <div v-loading="loading" class="common-layout">
     <el-container>
       <el-header>
         <AppHeader
-          :isAsideOpen="isAsideOpen"
+          :dataLoaded="dataLoaded"
           @update:dialogVisible="dialogVisible = $event"
-          @toggle-aside="isAsideOpen = !isAsideOpen"
+          @load:data="loadFromUrl"
         />
       </el-header>
       <el-container>
         <el-aside width="200px">
           <el-menu
             :default-active="selectedChannel ? selectedChannel.url : ''"
-            :collapse="isAsideOpen"
             class="channel-list"
             style="height: 100%; border-right: none"
           >
@@ -27,12 +26,12 @@
                   :index="channel.url"
                   @click="selectedChannel = channel"
                 >
-                  <img
+                  <!-- <img
                     v-if="channel.logo && !channel.logoError"
                     :src="channel.logo"
                     class="channel-logo"
                     @error="channel.logoError = true"
-                  />
+                  /> -->
                   <span class="channel-title">{{ channel.name }}</span>
                 </el-menu-item>
               </el-sub-menu>
@@ -42,7 +41,6 @@
         <el-main class="main">
           <div v-if="selectedChannel">
             <h2>{{ selectedChannel.name }}</h2>
-            <div class="video-format">Formato detectado: {{ getFormat(selectedChannel.url) }}</div>
             <template v-if="isSupportedFormat(selectedChannel.url)">
               <div class="video-container">
                 <video ref="videoRef" controls autoplay width="100%" @error="onVideoError"></video>
@@ -86,18 +84,17 @@ import Hls from 'hls.js'
 import AppHeader from './components/AppHeader.vue'
 import ChannelForm from './components/ChannelForm.vue'
 
-import { channelsDefault } from './channels.js'
-
 const channels = ref([])
 const selectedChannel = ref(null)
 const m3uUrl = ref('')
 const videoRef = ref(null)
 const videoError = ref(false)
 const dialogVisible = ref(false)
+const loading = ref(false)
+const dataLoaded = ref(false)
 const xtreamHost = ref('')
 const xtreamUser = ref('')
 const xtreamPass = ref('')
-const isAsideOpen = ref(true)
 let hlsInstance = null
 
 function parseM3U(content) {
@@ -126,6 +123,8 @@ function parseM3U(content) {
 }
 
 async function loadFromUrl() {
+  dialogVisible.value = false
+  loading.value = true
   if (!m3uUrl.value) return
   try {
     const res = await fetch(m3uUrl.value)
@@ -135,6 +134,8 @@ async function loadFromUrl() {
     channels.value = []
     selectedChannel.value = null
     alert('No se pudo cargar el archivo M3U')
+  } finally {
+    loading.value = false
   }
 }
 
@@ -155,16 +156,6 @@ function onVideoError() {
 
 function isSupportedFormat(url) {
   return url.endsWith('.m3u8') || url.endsWith('.mp4')
-}
-
-function getFormat(url) {
-  // Busca parámetro output en la URL
-  const outputMatch = url.match(/output=([a-zA-Z0-9]+)/)
-  if (outputMatch) return outputMatch[1]
-  // Busca extensión de archivo
-  const extMatch = url.match(/\.(\w+)(\?|$)/)
-  if (extMatch) return extMatch[1]
-  return 'desconocido'
 }
 
 const groupedChannels = computed(() => {
@@ -208,8 +199,28 @@ watch(selectedChannel, async (channel) => {
   }
 })
 
+// 🔹 Guardar automáticamente cuando cambien los datos
+watch([m3uUrl, xtreamHost, xtreamUser, xtreamPass], () => {
+  localStorage.setItem(
+    'iptv-user-data',
+    JSON.stringify({
+      m3uUrl: m3uUrl.value,
+      xtreamHost: xtreamHost.value,
+      xtreamUser: xtreamUser.value,
+      xtreamPass: xtreamPass.value,
+    }),
+  )
+})
+
 onMounted(() => {
-  // Nada especial aquí
+  const savedData = JSON.parse(localStorage.getItem('iptv-user-data') || '{}')
+  if (savedData.m3uUrl) m3uUrl.value = savedData.m3uUrl
+  if (savedData.xtreamHost) xtreamHost.value = savedData.xtreamHost
+  if (savedData.xtreamUser) xtreamUser.value = savedData.xtreamUser
+  if (savedData.xtreamPass) {
+    xtreamPass.value = savedData.xtreamPass
+    dataLoaded.value = true
+  }
 })
 
 onBeforeUnmount(() => {
