@@ -3,10 +3,8 @@
     <el-container>
       <el-header>
         <AppHeader
-          :mode="mode"
           :isAsideOpen="isAsideOpen"
           @update:dialogVisible="dialogVisible = $event"
-          @change-mode="mode = $event"
           @toggle-aside="isAsideOpen = !isAsideOpen"
         />
       </el-header>
@@ -42,17 +40,6 @@
           </el-menu>
         </el-aside>
         <el-main class="main">
-          <div class="form-container">
-            <ChannelForm
-              :mode="mode"
-              v-model:m3uUrl="m3uUrl"
-              v-model:xtreamHost="xtreamHost"
-              v-model:xtreamUser="xtreamUser"
-              v-model:xtreamPass="xtreamPass"
-              @load-from-url="loadFromUrl"
-              @load-from-xtream="loadFromXtream"
-            />
-          </div>
           <div v-if="selectedChannel">
             <h2>{{ selectedChannel.name }}</h2>
             <div class="video-format">Formato detectado: {{ getFormat(selectedChannel.url) }}</div>
@@ -77,14 +64,17 @@
       </el-container>
     </el-container>
 
-    <el-dialog v-model="dialogVisible" title="Tips" width="500" :before-close="handleClose">
-      <span>This is a message</span>
-      <template #footer>
-        <div class="dialog-footer">
-          <el-button @click="dialogVisible = false">Cancel</el-button>
-          <el-button type="primary" @click="dialogVisible = false"> Confirm </el-button>
-        </div>
-      </template>
+    <el-dialog v-model="dialogVisible" title="Datos" width="500" :before-close="handleClose">
+      <div class="form-container">
+        <ChannelForm
+          v-model:m3uUrl="m3uUrl"
+          v-model:xtreamHost="xtreamHost"
+          v-model:xtreamUser="xtreamUser"
+          v-model:xtreamPass="xtreamPass"
+          @load-from-url="loadFromUrl"
+          @load-from-xtream="loadFromXtream"
+        />
+      </div>
     </el-dialog>
   </div>
 </template>
@@ -104,7 +94,6 @@ const m3uUrl = ref('')
 const videoRef = ref(null)
 const videoError = ref(false)
 const dialogVisible = ref(false)
-const mode = ref('m3u')
 const xtreamHost = ref('')
 const xtreamUser = ref('')
 const xtreamPass = ref('')
@@ -151,7 +140,7 @@ async function loadFromUrl() {
 
 async function loadFromXtream() {
   if (!xtreamHost.value || !xtreamUser.value || !xtreamPass.value) {
-    alert('Completa todos los campos de Xtream')
+    alert('Completa todos los campos de Url usuario y contraseña')
     return
   }
   // Construye la URL Xtream para obtener el archivo M3U

@@ -18,26 +18,11 @@
     </el-button>
 
     <el-button plain @click="OpenCloseDialog"> Click to open the Dialog </el-button>
-    <el-button
-      type="primary"
-      :plain="mode !== 'm3u'"
-      @click="$emit('change-mode', 'm3u')"
-      style="margin-right: 10px"
-    >
-      M3U URL
-    </el-button>
-    <el-button type="primary" :plain="mode !== 'xtream'" @click="$emit('change-mode', 'xtream')">
-      Xtream
-    </el-button>
   </div>
 </template>
 
 <script setup>
 const props = defineProps({
-  mode: {
-    type: String,
-    required: true,
-  },
   isAsideOpen: {
     type: Boolean,
     default: false,
