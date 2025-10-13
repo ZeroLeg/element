@@ -3,7 +3,35 @@
     <el-container>
       <el-header><AppHeader :mode="mode" @change-mode="mode = $event" /></el-header>
       <el-container>
-        <el-aside width="200px">Aside</el-aside>
+        <el-aside width="200px">
+          <el-menu
+            :default-active="selectedChannel ? selectedChannel.url : ''"
+            class="channel-list"
+            style="height: 100%; border-right: none"
+          >
+            <template v-for="(channelsInGroup, group) in groupedChannels" :key="group">
+              <el-sub-menu :index="group">
+                <template #title>
+                  <span>{{ group }}</span>
+                </template>
+                <el-menu-item
+                  v-for="channel in channelsInGroup"
+                  :key="channel.url"
+                  :index="channel.url"
+                  @click="selectedChannel = channel"
+                >
+                  <!-- <img
+                    v-if="channel.logo && !channel.logoError"
+                    :src="channel.logo"
+                    class="channel-logo"
+                    @error="channel.logoError = true"
+                  /> -->
+                  <span class="channel-title">{{ channel.name }}</span>
+                </el-menu-item>
+              </el-sub-menu>
+            </template>
+          </el-menu>
+        </el-aside>
         <el-main class="main">
           <div class="form-container">
             <ChannelForm
@@ -45,9 +73,13 @@
 <script setup>
 import { ref, watch, nextTick, computed, onMounted, onBeforeUnmount } from 'vue'
 import Hls from 'hls.js'
-import AppHeader from './components/AppHeader.vue'
 
-const channels = ref([])
+import AppHeader from './components/AppHeader.vue'
+import ChannelForm from './components/ChannelForm.vue'
+
+import { channelsDefault } from './channels.js'
+
+const channels = ref(channelsDefault)
 const selectedChannel = ref(null)
 const m3uUrl = ref('')
 const videoRef = ref(null)
@@ -87,10 +119,9 @@ async function loadFromUrl() {
   if (!m3uUrl.value) return
   try {
     const res = await fetch(m3uUrl.value)
-
     const text = await res.text()
     channels.value = parseM3U(text)
-  } catch (e) {
+  } catch {
     channels.value = []
     selectedChannel.value = null
     alert('No se pudo cargar el archivo M3U')
@@ -107,26 +138,6 @@ async function loadFromXtream() {
   m3uUrl.value = url
   await loadFromUrl()
 }
-
-function selectChannel(channel) {
-  selectedChannel.value = channel
-}
-
-const groups = computed(() => {
-  const set = new Set()
-  channels.value.forEach((c) => set.add(c.group || 'Sin grupo'))
-  return Array.from(set)
-})
-
-const groupedChannels = computed(() => {
-  const map = {}
-  channels.value.forEach((c) => {
-    const group = c.group || 'Sin grupo'
-    if (!map[group]) map[group] = []
-    map[group].push(c)
-  })
-  return map
-})
 
 function onVideoError() {
   videoError.value = true
@@ -145,6 +156,16 @@ function getFormat(url) {
   if (extMatch) return extMatch[1]
   return 'desconocido'
 }
+
+const groupedChannels = computed(() => {
+  const map = {}
+  channels.value.forEach((c) => {
+    const group = c.group || 'Sin grupo'
+    if (!map[group]) map[group] = []
+    map[group].push(c)
+  })
+  return map
+})
 
 watch(selectedChannel, async (channel) => {
   await nextTick()
@@ -190,16 +211,25 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped>
-.main {
+.common-layout {
   height: 100vh;
-  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
-.form-container {
-  margin-bottom: 24px;
-  max-width: 400px;
+.el-container {
+  flex: 1 1 auto;
+  overflow: hidden;
+}
+.el-main {
+  flex: 1 1 auto;
+}
+.el-aside {
+  min-width: 200px;
 }
 .channel-list {
-  margin-top: 20px;
+  flex: 1 1 auto;
+  overflow-y: auto;
 }
 .upload-demo {
   margin-bottom: 20px;
@@ -243,9 +273,5 @@ onBeforeUnmount(() => {
 
 .el-header {
   background-color: var(--el-fill-color-light);
-}
-
-.el-aside {
-  background-color: var(--el-color-primary-light-9);
 }
 </style>

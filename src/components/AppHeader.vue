@@ -1,5 +1,8 @@
 <template>
   <div class="header">
+    <el-button circle class="burger-btn" @click="$emit('toggle-aside')" style="margin-right: 16px">
+      <el-icon><Menu /></el-icon>
+    </el-button>
     <el-button
       type="primary"
       :plain="mode !== 'm3u'"
@@ -15,6 +18,7 @@
 </template>
 
 <script setup>
+import { Menu } from '@element-plus/icons-vue'
 defineProps({
   mode: {
     type: String,
@@ -26,5 +30,10 @@ defineProps({
 <style scoped>
 .header {
   padding: 16px 24px;
+  display: flex;
+  align-items: center;
+}
+.burger-btn {
+  margin-right: 16px;
 }
 </style>
