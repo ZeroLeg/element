@@ -1,11 +1,19 @@
 <template>
   <div class="common-layout">
     <el-container>
-      <el-header><AppHeader :mode="mode" @change-mode="mode = $event" /></el-header>
+      <el-header>
+        <AppHeader
+          :mode="mode"
+          :isAsideOpen="isAsideOpen"
+          @change-mode="mode = $event"
+          @toggle-aside="isAsideOpen = !isAsideOpen"
+        />
+      </el-header>
       <el-container>
         <el-aside width="200px">
           <el-menu
             :default-active="selectedChannel ? selectedChannel.url : ''"
+            :collapse="isAsideOpen"
             class="channel-list"
             style="height: 100%; border-right: none"
           >
@@ -20,12 +28,12 @@
                   :index="channel.url"
                   @click="selectedChannel = channel"
                 >
-                  <!-- <img
+                  <img
                     v-if="channel.logo && !channel.logoError"
                     :src="channel.logo"
                     class="channel-logo"
                     @error="channel.logoError = true"
-                  /> -->
+                  />
                   <span class="channel-title">{{ channel.name }}</span>
                 </el-menu-item>
               </el-sub-menu>
@@ -88,6 +96,7 @@ const mode = ref('m3u')
 const xtreamHost = ref('')
 const xtreamUser = ref('')
 const xtreamPass = ref('')
+const isAsideOpen = ref(true)
 let hlsInstance = null
 
 function parseM3U(content) {
@@ -224,9 +233,6 @@ onBeforeUnmount(() => {
 .el-main {
   flex: 1 1 auto;
 }
-.el-aside {
-  min-width: 200px;
-}
 .channel-list {
   flex: 1 1 auto;
   overflow-y: auto;
@@ -273,5 +279,13 @@ onBeforeUnmount(() => {
 
 .el-header {
   background-color: var(--el-fill-color-light);
+}
+
+.el-menu-vertical:not(.el-menu--collapse) {
+  width: 200px;
+  min-height: 400px;
+}
+.el-menu--collapse {
+  width: 0;
 }
 </style>

@@ -1,7 +1,20 @@
 <template>
   <div class="header">
-    <el-button circle class="burger-btn" @click="$emit('toggle-aside')" style="margin-right: 16px">
-      <el-icon><Menu /></el-icon>
+    <el-button class="burger-btn" @click="$emit('toggle-aside')">
+      <span class="burger-icon">
+        <svg
+          width="22"
+          height="22"
+          viewBox="0 0 22 22"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          :class="isAsideOpen ? 'burger-open' : ''"
+        >
+          <rect class="rect1" y="4" width="22" height="2.5" rx="1.25" fill="currentColor" />
+          <rect class="rect2" y="9.25" width="22" height="2.5" rx="1.25" fill="currentColor" />
+          <rect class="rect3" y="14.5" width="22" height="2.5" rx="1.25" fill="currentColor" />
+        </svg>
+      </span>
     </el-button>
     <el-button
       type="primary"
@@ -18,11 +31,14 @@
 </template>
 
 <script setup>
-import { Menu } from '@element-plus/icons-vue'
-defineProps({
+const props = defineProps({
   mode: {
     type: String,
     required: true,
+  },
+  isAsideOpen: {
+    type: Boolean,
+    default: false,
   },
 })
 </script>
@@ -35,5 +51,21 @@ defineProps({
 }
 .burger-btn {
   margin-right: 16px;
+}
+.burger-icon {
+  display: flex;
+  align-items: center;
+}
+svg rect {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+svg.burger-open .rect1 {
+  transform: translateY(5.25px) rotate(45deg);
+}
+svg.burger-open .rect2 {
+  opacity: 0;
+}
+svg.burger-open .rect3 {
+  transform: translateY(-5.25px) rotate(-45deg);
 }
 </style>
