@@ -1,0 +1,6463 @@
+{
+  "config": {
+    "datacase": {
+      "movetransactions": false,
+      "descriplural": "Sedes",
+      "calculaterouteserviceifpoints": null,
+      "customreportlistexcel": true,
+      "ganttedit": false,
+      "calculaterouteserviceiftype": null,
+      "editdetail": true,
+      "descrisingular": "Sede",
+      "id": 1186,
+      "lang": "es",
+      "ganttdet": false,
+      "plan": false,
+      "exportjson": true,
+      "gallerylist": true,
+      "editlist": true,
+      "calculaterouteservicetype": null,
+      "fcalculaterouteservicepoints": null,
+      "multipleuploaddetedit": false,
+      "qr": false,
+      "bidi": false,
+      "fcalculaterouteservicetype": null,
+      "gallerydetail": true,
+      "idlayer": null,
+      "showlistdialogtabs": false,
+      "detaillist": true,
+      "calculaterouteservicenoifpoints": null,
+      "dinamycmap": false,
+      "maingallery": true,
+      "calendardetail": false,
+      "graphicsdet": true,
+      "selectionmode": true,
+      "fcalculaterouteservicenoiftype": null,
+      "listempty": false,
+      "customreportlistpdf": true,
+      "datadetail": true,
+      "iddatacaserel": null,
+      "viewtransdialog": false,
+      "workflowedit": false,
+      "plan3d": false,
+      "listdialogedit": false,
+      "document": false,
+      "idmainlayer": 163,
+      "filterlistcols": false,
+      "eventcalendarfirst": false,
+      "map": true,
+      "fcalculaterouteservicenoifpoints": null,
+      "editmodelist": false,
+      "refresh": true,
+      "calculateroutelayersource": null,
+      "editmodedetail": false,
+      "filterlist": true,
+      "copylist": true,
+      "intdocumentsdetail": true,
+      "graphicfirst": true,
+      "calculaterouteserviceif": null,
+      "fixedgalleryleft": false,
+      "fcalculaterouteserviceiftype": null,
+      "calculaterouteservicenoiftype": null,
+      "iduser": 66,
+      "calculaterouteservice": null,
+      "plan3ddet": false,
+      "graphics": true,
+      "detnavigation": false,
+      "fcalculaterouteserviceifpoints": null,
+      "calculaterouteservicepoints": null,
+      "exporttemplate": true,
+      "multipleuploadlistedit": false,
+      "exportpdf": true,
+      "multipleuploadlist": true,
+      "fixcolumnsleft": true,
+      "calculaterouteservicenoif": null,
+      "gotofirst": false,
+      "eventcalendaredit": false,
+      "synopticfirst": false,
+      "visorbimeditable": true,
+      "add": true,
+      "maxgalleryitems": 5,
+      "workflow": false,
+      "hidelist": false,
+      "changestatus": false,
+      "sinoptiklist": true,
+      "addmodal": true,
+      "ideditablelayer": 163,
+      "calculateroutelayerdestination": null,
+      "multipleuploaddet": false,
+      "actionlist": true,
+      "ganttlist": false,
+      "idmaincaseusemap": 1614,
+      "reldata": true,
+      "plandet": false,
+      "actiondet": true,
+      "delete": true,
+      "sinoptikdetail": false,
+      "filterablefields": false,
+      "copydetail": true,
+      "calendarlist": false,
+      "saveandcontinue": true,
+      "mapfirst": false,
+      "descri": "Sede Andalucia",
+      "buttons": false,
+      "detaillistmodal": false,
+      "visorbim": true,
+      "insertexternaldocument": true,
+      "relatedmap": true,
+      "editlistmodal": false,
+      "eventcalendarlist": true,
+      "intdocumentslist": true,
+      "listselectallbydefault": false,
+      "exportexcel": true,
+      "serviceid": "PG_vheadquarter",
+      "exportcsv": true,
+      "mapsConfig": [
+        {
+          "idCaseuseMap": "2251",
+          "routelimitpoints": {
+            "limit": "20",
+            "msg": "Se han seleccionado un número alto de puntos de paso y el cálculo puede tardar, ¿Desea continuar?"
+          },
+          "routelimitblockpoints": {
+            "limit": "20",
+            "msg": "Se han creado el número máximo de punto posibles para realizar este cálculo."
+          },
+          "mainLayer": 499,
+          "editableLayer": null,
+          "externalEnvironments": [],
+          "title": "PG_vheadquarter TEST",
+          "syncronized": false,
+          "gisgroupcluster": false,
+          "showpolygonsdft": false,
+          "geocoder": {
+            "active": true,
+            "url": "https://nominatim.openstreetmap.org/",
+            "filter": {
+              "countries": ["es"]
+            },
+            "type": "NOMINATIM",
+            "limit": "5"
+          },
+          "wms": {
+            "active": true,
+            "actionGetWms": {
+              "url": "servicesout/PG_giswms/listSimple",
+              "config": {
+                "pagesize": 0
+              },
+              "data": {}
+            },
+            "configWms": {
+              "wmsServiceId": "id",
+              "wmsServiceDesc": "description",
+              "wmsServiceUrl": "url"
+            }
+          },
+          "shp": {
+            "active": true,
+            "actionGetShp": {
+              "url": "servicesout/PG_gisshp/list",
+              "config": {
+                "pagesize": 0,
+                "datacase": 1186
+              },
+              "data": {}
+            },
+            "configShp": {
+              "shpServiceId": "id",
+              "shpServiceDesc": "description",
+              "shpServiceFile": "file"
+            }
+          },
+          "georeferencing": {
+            "active": false
+          },
+          "layers": [
+            {
+              "description": "PG_vheadquarter TEST",
+              "idcseditmaplayer": 499,
+              "idcaseusemaplayer": 499,
+              "order": 0,
+              "gisgroupcluster": false,
+              "showpolygonsdft": false,
+              "idcsmainmaplayer": 499,
+              "syncronized": false,
+              "id": 499,
+              "idcaseusemap": 2251,
+              "active": "B",
+              "groups": true,
+              "timeout": 0,
+              "visible": true,
+              "layertype": "internal",
+              "geometryTypes": ["Point"],
+              "sourcedest": [
+                {
+                  "source": "Point",
+                  "destination": "point"
+                }
+              ],
+              "childrenLayers": [],
+              "thematics": [
+                {
+                  "id": "0",
+                  "descri": "Accidentes",
+                  "dft": true,
+                  "style": {
+                    "backgroundopacity": 1,
+                    "bordertypespace": 0,
+                    "linetypelong": 0,
+                    "linetypebutt": "round",
+                    "lineopacity": 0,
+                    "linecolor": "#140303",
+                    "icon": null,
+                    "bordertypebutt": "round",
+                    "linewidth": 0,
+                    "backgroundcolor": "#ef2a0b",
+                    "bordercolor": "#FFFFFF",
+                    "bordertypelong": 0,
+                    "borderwidth": 0,
+                    "linetypespace": 0,
+                    "idcaseusemaplayer": 499,
+                    "radius": 10
+                  }
+                }
+              ],
+              "actionData": {
+                "url": "servicesout/PG_vheadquarter/listGis",
+                "config": {
+                  "where": {
+                    "PG_vheadquarter": ""
+                  },
+                  "page": 1,
+                  "pagesize": 0,
+                  "datacase": 1186,
+                  "layer": 499,
+                  "loadthematics": true
+                }
+              },
+              "actionDetail": {
+                "url": "servicesout/PG_vheadquarter/detail",
+                "config": {
+                  "where": {
+                    "PG_vheadquarter": ""
+                  },
+                  "keyFields": ["id"]
+                }
+              },
+              "name": "Sede"
+            }
+          ],
+          "basemap": [
+            {
+              "idsiteurl": 5,
+              "url": "https://terramapas.icv.gva.es/0101_BCV05?service=WMS&request=GetCapabilities",
+              "description": "GIS VALENCIA",
+              "group": "MAPAS",
+              "default": false,
+              "main": false,
+              "descriptionLegend": null,
+              "urlLegend": null
+            },
+            {
+              "idsiteurl": 2,
+              "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+              "description": "Arcgis Ortofotos",
+              "group": "MAPAS",
+              "default": false,
+              "main": false,
+              "descriptionLegend": null,
+              "urlLegend": null
+            },
+            {
+              "idsiteurl": 3,
+              "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+              "description": "Open Street",
+              "group": "MAPAS",
+              "default": true,
+              "main": false,
+              "descriptionLegend": "google",
+              "urlLegend": "https://google.es"
+            },
+            {
+              "idsiteurl": 1,
+              "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+              "description": "Arcgis Street",
+              "group": "MAPAS",
+              "default": false,
+              "main": true,
+              "descriptionLegend": "google 2",
+              "urlLegend": "https://www.google.com/search?q=casa"
+            }
+          ]
+        },
+        {
+          "idCaseuseMap": "1614",
+          "routelimitpoints": {
+            "limit": "20",
+            "msg": "Se han seleccionado un número alto de puntos de paso y el cálculo puede tardar, ¿Desea continuar?"
+          },
+          "routelimitblockpoints": {
+            "limit": "20",
+            "msg": "Se han creado el número máximo de punto posibles para realizar este cálculo."
+          },
+          "mainLayer": 163,
+          "editableLayer": 163,
+          "externalEnvironments": [],
+          "title": "PG_vheadquarter - ID-1186",
+          "syncronized": false,
+          "gisgroupcluster": false,
+          "showpolygonsdft": false,
+          "geocoder": {
+            "active": true,
+            "url": "https://nominatim.openstreetmap.org/",
+            "filter": {
+              "countries": ["es"]
+            },
+            "type": "NOMINATIM",
+            "limit": "5"
+          },
+          "wms": {
+            "active": true,
+            "actionGetWms": {
+              "url": "servicesout/PG_giswms/listSimple",
+              "config": {
+                "pagesize": 0
+              },
+              "data": {}
+            },
+            "configWms": {
+              "wmsServiceId": "id",
+              "wmsServiceDesc": "description",
+              "wmsServiceUrl": "url"
+            }
+          },
+          "shp": {
+            "active": true,
+            "actionGetShp": {
+              "url": "servicesout/PG_gisshp/list",
+              "config": {
+                "pagesize": 0,
+                "datacase": 1186
+              },
+              "data": {}
+            },
+            "configShp": {
+              "shpServiceId": "id",
+              "shpServiceDesc": "description",
+              "shpServiceFile": "file"
+            }
+          },
+          "georeferencing": {
+            "active": false
+          },
+          "layers": [
+            {
+              "description": "PG_vheadquarter - ID-1186",
+              "idcseditmaplayer": 163,
+              "idcaseusemaplayer": 163,
+              "order": 1,
+              "gisgroupcluster": false,
+              "showpolygonsdft": false,
+              "idcsmainmaplayer": 163,
+              "syncronized": false,
+              "id": 163,
+              "idcaseusemap": 1614,
+              "kml": false,
+              "active": "B",
+              "circle": false,
+              "groups": true,
+              "timeout": 0,
+              "visible": true,
+              "layertype": "internal",
+              "geometryTypes": [
+                "Point",
+                "Polygon",
+                "LineString",
+                "MultiPolygonZ"
+              ],
+              "sourcedest": [
+                {
+                  "source": "LineString",
+                  "destination": "line"
+                },
+                {
+                  "source": "MultiPolygonZ",
+                  "destination": "multipolygon2"
+                },
+                {
+                  "source": "Point",
+                  "destination": "point"
+                },
+                {
+                  "source": "Polygon",
+                  "destination": "polygon"
+                }
+              ],
+              "childrenLayers": [
+                {
+                  "id": 176,
+                  "sourcedest": [
+                    {
+                      "source": "id",
+                      "destination": "id_headquarter"
+                    }
+                  ]
+                },
+                {
+                  "id": 179,
+                  "sourcedest": [
+                    {
+                      "source": "id",
+                      "destination": "id_headquarter"
+                    }
+                  ]
+                }
+              ],
+              "thematics": [
+                {
+                  "id": "357",
+                  "descri": "Sedes 00005",
+                  "dft": false,
+                  "style": {
+                    "backgroundopacity": 1,
+                    "bordertypespace": 0,
+                    "linetypelong": 0,
+                    "linetypebutt": "round",
+                    "lineopacity": 0.5,
+                    "linecolor": "#a33737",
+                    "icon": null,
+                    "bordertypebutt": "round",
+                    "linewidth": 1,
+                    "backgroundcolor": "#53ed50",
+                    "bordercolor": "#FFFFFF",
+                    "bordertypelong": 0,
+                    "borderwidth": 0,
+                    "linetypespace": 0,
+                    "idcaseusemaplayer": 163,
+                    "radius": 5
+                  }
+                },
+                {
+                  "id": "358",
+                  "descri": "Sedes  28108",
+                  "dft": false,
+                  "style": {
+                    "backgroundopacity": 1,
+                    "bordertypespace": 0,
+                    "linetypelong": 0,
+                    "linetypebutt": "round",
+                    "lineopacity": 0,
+                    "linecolor": "#140303",
+                    "icon": null,
+                    "bordertypebutt": "round",
+                    "linewidth": 0,
+                    "backgroundcolor": "#ef2a0b",
+                    "bordercolor": "#FFFFFF",
+                    "bordertypelong": 0,
+                    "borderwidth": 0,
+                    "linetypespace": 0,
+                    "idcaseusemaplayer": 163,
+                    "radius": 10
+                  }
+                },
+                {
+                  "id": "0",
+                  "descri": "Bases",
+                  "dft": true,
+                  "style": {
+                    "backgroundopacity": 0.8,
+                    "bordertypespace": 3,
+                    "linetypelong": 0,
+                    "linetypebutt": "round",
+                    "lineopacity": 0.9,
+                    "linecolor": "rgb(226,38,38)",
+                    "icon": null,
+                    "bordertypebutt": "round",
+                    "linewidth": 7,
+                    "backgroundcolor": "#3f91cc",
+                    "bordercolor": "#FFFFFF",
+                    "bordertypelong": 5,
+                    "borderwidth": 0,
+                    "linetypespace": 0,
+                    "idcaseusemaplayer": 163,
+                    "radius": 8
+                  }
+                }
+              ],
+              "actionData": {
+                "url": "servicesout/PG_vheadquarter/listGis",
+                "config": {
+                  "where": {
+                    "PG_vheadquarter": ""
+                  },
+                  "page": 1,
+                  "pagesize": 0,
+                  "datacase": 1186,
+                  "layer": 163,
+                  "loadthematics": true
+                }
+              },
+              "actionDetail": {
+                "url": "servicesout/PG_vheadquarter/detail",
+                "config": {
+                  "where": {
+                    "PG_vheadquarter": ""
+                  },
+                  "keyFields": ["id"]
+                }
+              },
+              "name": "Sede"
+            },
+            {
+              "description": "PG_vheadquarter - ID-1186",
+              "idcseditmaplayer": 163,
+              "idcaseusemaplayer": 176,
+              "order": 3,
+              "gisgroupcluster": false,
+              "showpolygonsdft": false,
+              "idcsmainmaplayer": 163,
+              "syncronized": false,
+              "id": 176,
+              "idcaseusemap": 1614,
+              "active": "B",
+              "circle": false,
+              "groups": true,
+              "timeout": 0,
+              "visible": true,
+              "layertype": "internal",
+              "geometryTypes": ["Polygon"],
+              "sourcedest": [
+                {
+                  "source": "Polygon",
+                  "destination": "polygon"
+                }
+              ],
+              "childrenLayers": [],
+              "thematics": [
+                {
+                  "id": "0",
+                  "descri": "Facilities",
+                  "dft": true,
+                  "style": {
+                    "backgroundopacity": 0.6,
+                    "bordertypespace": 0,
+                    "linetypelong": 0,
+                    "linetypebutt": "round",
+                    "lineopacity": 1,
+                    "linecolor": "#d106c6",
+                    "icon": null,
+                    "bordertypebutt": "round",
+                    "linewidth": 3,
+                    "backgroundcolor": "#f4a4ef",
+                    "bordercolor": "#FFFFFF",
+                    "bordertypelong": 0,
+                    "borderwidth": 0,
+                    "linetypespace": 0,
+                    "idcaseusemaplayer": 176,
+                    "radius": 9
+                  }
+                }
+              ],
+              "actionData": {
+                "url": "servicesout/PG_vfacility/listGis",
+                "config": {
+                  "where": {
+                    "PG_vfacility": ""
+                  },
+                  "page": 1,
+                  "pagesize": 0,
+                  "datacase": 1186,
+                  "layer": 176,
+                  "loadthematics": true
+                }
+              },
+              "actionDetail": {
+                "url": "servicesout/PG_vfacility/detail",
+                "config": {
+                  "where": {
+                    "PG_vfacility": ""
+                  },
+                  "keyFields": ["id"]
+                }
+              },
+              "name": "Instalación"
+            },
+            {
+              "description": "PG_vheadquarter - ID-1186",
+              "idcseditmaplayer": 163,
+              "idcaseusemaplayer": 179,
+              "order": 4,
+              "gisgroupcluster": false,
+              "showpolygonsdft": false,
+              "idcsmainmaplayer": 163,
+              "syncronized": false,
+              "id": 179,
+              "idcaseusemap": 1614,
+              "active": "B",
+              "circle": false,
+              "groups": false,
+              "timeout": 0,
+              "visible": true,
+              "layertype": "internal",
+              "geometryTypes": ["Polygon"],
+              "sourcedest": [
+                {
+                  "source": "Polygon",
+                  "destination": "polygon"
+                }
+              ],
+              "childrenLayers": [],
+              "thematics": [
+                {
+                  "id": "0",
+                  "descri": "Elementos de urbanización",
+                  "dft": true,
+                  "style": {
+                    "backgroundopacity": 0.6,
+                    "bordertypespace": 0,
+                    "linetypelong": 0,
+                    "linetypebutt": "round",
+                    "lineopacity": 0.7,
+                    "linecolor": "#c60101",
+                    "icon": null,
+                    "bordertypebutt": "round",
+                    "linewidth": 2,
+                    "backgroundcolor": "#5e098c",
+                    "bordercolor": "#FFFFFF",
+                    "bordertypelong": 0,
+                    "borderwidth": 0,
+                    "linetypespace": 0,
+                    "idcaseusemaplayer": 179,
+                    "radius": 9
+                  }
+                }
+              ],
+              "actionData": {
+                "url": "servicesout/PG_vurbanization_element/listGis",
+                "config": {
+                  "where": {
+                    "PG_vurbanization_element": "id_headquarter = 3150"
+                  },
+                  "page": 1,
+                  "pagesize": 0,
+                  "datacase": 1186,
+                  "layer": 179,
+                  "loadthematics": true
+                }
+              },
+              "actionDetail": {
+                "url": "servicesout/PG_vurbanization_element/detail",
+                "config": {
+                  "where": {
+                    "PG_vurbanization_element": ""
+                  },
+                  "keyFields": ["id"]
+                }
+              },
+              "name": "Elemento de urbanización"
+            }
+          ],
+          "basemap": [
+            {
+              "idsiteurl": 5,
+              "url": "https://terramapas.icv.gva.es/0101_BCV05?service=WMS&request=GetCapabilities",
+              "description": "GIS VALENCIA",
+              "group": "MAPAS",
+              "default": false,
+              "main": false,
+              "descriptionLegend": null,
+              "urlLegend": null
+            },
+            {
+              "idsiteurl": 2,
+              "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+              "description": "Arcgis Ortofotos",
+              "group": "MAPAS",
+              "default": false,
+              "main": false,
+              "descriptionLegend": null,
+              "urlLegend": null
+            },
+            {
+              "idsiteurl": 3,
+              "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+              "description": "Open Street",
+              "group": "MAPAS",
+              "default": false,
+              "main": false,
+              "descriptionLegend": "google",
+              "urlLegend": "https://google.es"
+            },
+            {
+              "idsiteurl": 1,
+              "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+              "description": "Arcgis Street",
+              "group": "MAPAS",
+              "default": true,
+              "main": true,
+              "descriptionLegend": "google 2",
+              "urlLegend": "https://www.google.com/search?q=casa"
+            }
+          ]
+        }
+      ]
+    },
+    "action": "detail",
+    "actionNew": {
+      "url": "servicesout/PG_vheadquarter/new",
+      "config": {
+        "datacase": 1186
+      }
+    },
+    "actionDetail": {
+      "url": "servicesout/PG_vheadquarter/detail",
+      "config": {
+        "datacase": 1186,
+        "keyFields": ["id"]
+      }
+    },
+    "actionListCopy": {
+      "url": "servicesout/PG_vheadquarter/listCopy",
+      "config": {
+        "datacase": 1186,
+        "keyFields": ["id"],
+        "numCopies": 1
+      }
+    },
+    "actionUpdate": {
+      "url": "servicesout/PG_vheadquarter",
+      "config": {
+        "datacase": 1186,
+        "keyFields": ["id"]
+      }
+    },
+    "actionDelete": {
+      "url": "servicesout/PG_vheadquarter",
+      "config": {
+        "datacase": 1186,
+        "keyFields": ["id"],
+        "deletecomment": null
+      }
+    },
+    "actionRefresh": {
+      "url": "servicesout/PG_vheadquarter/refresh",
+      "config": {
+        "datacase": 1186,
+        "where": "t.\"id\" IN (:t.\"id\")",
+        "order": []
+      }
+    },
+    "actionGalleryList": {
+      "url": "servicesout/PG_vgallery/listFiles",
+      "config": {
+        "service": "PG_vheadquarter",
+        "page": 1,
+        "pagesize": 0
+      },
+      "data": {
+        "tablename": "PG_vheadquarter",
+        "gallery": 1
+      },
+      "sourcedest": [
+        {
+          "source": "id",
+          "destination": "doclink"
+        }
+      ]
+    },
+    "actionGalleryMainImage": {
+      "url": "servicesout/PG_vgallery/listFile",
+      "config": {
+        "mainGallery": true
+      },
+      "data": {
+        "main": 1,
+        "min": 0,
+        "gallery": 1,
+        "tablename": "PG_vheadquarter",
+        "service": "PG_vheadquarter",
+        "datacase": 1186
+      },
+      "sourcedest": [
+        {
+          "source": "id",
+          "destination": "doclink"
+        }
+      ]
+    },
+    "actionGalleryAdd": {
+      "url": "servicesout/PG_vgallery/addFile",
+      "config": {},
+      "data": {
+        "tablename": "PG_vheadquarter",
+        "description": "",
+        "main": 0
+      },
+      "sourcedest": [
+        {
+          "source": "id",
+          "destination": "doclink"
+        }
+      ]
+    },
+    "transactions": {
+      "config": [
+        {
+          "groupname": "PruebaAmanas***",
+          "transactions": [
+            {
+              "description": "Prueba Amanas***",
+              "actiontype": "FLOW",
+              "selectype": "0",
+              "reporttype": "pdf",
+              "refresh": true,
+              "reportdatabaseconnection": null,
+              "idrelateddata": null,
+              "hasform": false,
+              "actionTrans": {
+                "url": "services/flow",
+                "config": {
+                  "id": 24,
+                  "type": "FLOW",
+                  "detail": true
+                },
+                "data": {}
+              },
+              "actionForm": {
+                "url": "",
+                "config": {}
+              }
+            }
+          ]
+        },
+        {
+          "groupname": "Prueba",
+          "transactions": [
+            {
+              "description": "Nuevo Documento***",
+              "actiontype": "INTDOCNEWD",
+              "selectype": "1",
+              "refresh": false,
+              "idrelateddata": null,
+              "hasform": false,
+              "actionTrans": {
+                "url": "intdocuments/documents/createdocumentblank",
+                "config": {
+                  "idTemplate": ["Plantilla_blanco"],
+                  "description": "Nuevo Documento***",
+                  "service": "PG_vheadquarter",
+                  "iddatacase": 1186,
+                  "alias": "",
+                  "opendocument": false,
+                  "parentImage": false,
+                  "serviceDocuments": "PG_vdocuments",
+                  "sourcedestdocument": [
+                    {
+                      "source": "id",
+                      "destination": "doclink"
+                    }
+                  ],
+                  "datadocuments": {
+                    "tablename": "PG_headquarter"
+                  }
+                },
+                "data": {},
+                "sourcedest": [
+                  {
+                    "source": "id",
+                    "destination": "id"
+                  }
+                ]
+              }
+            },
+            {
+              "description": "Informe Sede***",
+              "actiontype": "INTDOCGEN",
+              "selectype": "1",
+              "refresh": false,
+              "idrelateddata": 2243,
+              "hasform": false,
+              "actionTrans": {
+                "url": "intdocuments/documents/createdocumenttemplate",
+                "config": {
+                  "idTemplate": ["Plantilla_vsede", "vheadquarterTemplate"],
+                  "description": "Informe Sede***",
+                  "service": "PG_vheadquarter",
+                  "iddatacase": 1186,
+                  "alias": "vheadquart",
+                  "opendocument": false,
+                  "parentImage": true,
+                  "serviceDocuments": "PG_vdocuments",
+                  "sourcedestdocument": [
+                    {
+                      "source": "id",
+                      "destination": "doclink"
+                    }
+                  ],
+                  "datadocuments": {
+                    "tablename": "PG_headquarter"
+                  }
+                },
+                "data": {},
+                "sourcedest": [
+                  {
+                    "source": "id",
+                    "destination": "id"
+                  }
+                ],
+                "tableMarks": [
+                  {
+                    "tableMarkService": "PG_locality",
+                    "sourceDestTableMark": [
+                      {
+                        "source": "id_locality",
+                        "destination": "id"
+                      }
+                    ],
+                    "dataTableMark": {},
+                    "name": "locality"
+                  },
+                  {
+                    "tableMarkService": "PG_manager",
+                    "sourceDestTableMark": [
+                      {
+                        "source": "id_manager",
+                        "destination": "id"
+                      }
+                    ],
+                    "dataTableMark": {},
+                    "name": "manager"
+                  },
+                  {
+                    "tableMarkService": "PG_building",
+                    "sourceDestTableMark": [
+                      {
+                        "source": "id",
+                        "destination": "id_headquarter"
+                      }
+                    ],
+                    "dataTableMark": {},
+                    "name": "building"
+                  }
+                ]
+              }
+            },
+            {
+              "description": "Info. Edificios***",
+              "actiontype": "INTDOCGEN",
+              "selectype": "1",
+              "refresh": false,
+              "idrelateddata": 2224,
+              "hasform": false,
+              "actionTrans": {
+                "url": "intdocuments/documents/createdocumenttemplate",
+                "config": {
+                  "idTemplate": ["Plantilla_edificios"],
+                  "description": "Info. Edificios***",
+                  "service": "PG_building",
+                  "iddatacase": 1186,
+                  "alias": "building",
+                  "opendocument": true,
+                  "parentImage": true,
+                  "serviceDocuments": "PG_vdocuments",
+                  "sourcedestdocument": [
+                    {
+                      "source": "id",
+                      "destination": "doclink"
+                    }
+                  ],
+                  "datadocuments": {
+                    "tablename": "PG_building"
+                  }
+                },
+                "data": {},
+                "sourcedest": [
+                  {
+                    "source": "id",
+                    "destination": "id_headquarter"
+                  }
+                ]
+              }
+            },
+            {
+              "description": "Prueba Transac ListSel***",
+              "actiontype": "FLOW",
+              "selectype": "0",
+              "reporttype": "pdf",
+              "refresh": false,
+              "reportdatabaseconnection": null,
+              "idrelateddata": 2224,
+              "hasform": true,
+              "actionTrans": {
+                "url": "services/flow",
+                "config": {
+                  "id": null,
+                  "type": "FLOW",
+                  "detail": true
+                },
+                "data": {}
+              },
+              "actionForm": {
+                "url": "servicesout/PG_vheadquarter/newNoConfigSimple",
+                "config": {},
+                "sourcedest": []
+              }
+            }
+          ]
+        },
+        {
+          "groupname": "Informe",
+          "transactions": [
+            {
+              "description": "Informe",
+              "actiontype": "REPORT",
+              "selectype": "0",
+              "reporttype": "pptx",
+              "refresh": false,
+              "reportdatabaseconnection": true,
+              "idrelateddata": 2243,
+              "hasform": false,
+              "actionTrans": {
+                "url": "services/report",
+                "config": {
+                  "name": "Informe estandar de sedes",
+                  "type": "pptx",
+                  "idreport": 24,
+                  "idreportstyle": null,
+                  "databaseconnection": true,
+                  "detail": true,
+                  "service": "PG_vheadquarter"
+                },
+                "data": {}
+              },
+              "actionForm": {
+                "url": "",
+                "config": {}
+              }
+            }
+          ]
+        },
+        {
+          "groupname": "Cambiar a histórico",
+          "transactions": [
+            {
+              "description": "Cambiar a histórico",
+              "actiontype": "FLOW",
+              "selectype": "0",
+              "reporttype": "pdf",
+              "refresh": false,
+              "reportdatabaseconnection": null,
+              "idrelateddata": null,
+              "hasform": false,
+              "actionTrans": {
+                "url": "services/flow",
+                "config": {
+                  "id": 87,
+                  "type": "FLOW",
+                  "detail": true
+                },
+                "data": {}
+              },
+              "actionForm": {
+                "url": "",
+                "config": {}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "related": [
+      {
+        "iddatacase": 1186,
+        "helptext": "Se facilita un listado de los tipos de Sede",
+        "id": 3690,
+        "groupname": "Mediciones Globales",
+        "actionHelpImg": {
+          "url": "services/imagesClass/112",
+          "image": "true",
+          "size": "L"
+        },
+        "relateds": [
+          {
+            "link": false,
+            "description": "Zonas de Seguridad",
+            "helptext": "",
+            "id": 2227,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 3690,
+            "action": {
+              "url": "servicesout/PG_vheadquarter_security_zone2/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 702,
+                "where": {
+                  "PG_vheadquarter_security_zone2": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vheadquarter_security_zone2/filter",
+              "config": {
+                "datacase": 702
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          },
+          {
+            "link": false,
+            "description": "Mediciones",
+            "helptext": "",
+            "id": 2230,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 3690,
+            "action": {
+              "url": "servicesout/PG_vvalues_of_iot_measure_by_headquarter_year_what_is_measured/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 993,
+                "where": {
+                  "PG_vvalues_of_iot_measure_by_headquarter_year_what_is_measured": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "equipment_id_current_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vvalues_of_iot_measure_by_headquarter_year_what_is_measured/filter",
+              "config": {
+                "datacase": 993
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          }
+        ]
+      },
+      {
+        "iddatacase": 1186,
+        "helptext": "hola",
+        "id": 2915,
+        "groupname": "Infraestructura",
+        "actionHelpImg": {
+          "url": "services/imagesClass/223",
+          "image": "true",
+          "size": "S"
+        },
+        "relateds": [
+          {
+            "link": false,
+            "description": "Edificios",
+            "helptext": "hola",
+            "id": 2224,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 2915,
+            "action": {
+              "url": "servicesout/PG_vbuilding/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 2078,
+                "where": {
+                  "PG_vbuilding": ""
+                }
+              },
+              "data": {
+                "code": "002"
+              },
+              "sourcedest": []
+            },
+            "actionFilter": {
+              "url": "PG_vbuilding/filter",
+              "config": {
+                "datacase": 2078
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            },
+            "actionHelpImg": {
+              "url": "services/imagesClass/67",
+              "image": "true",
+              "size": "M"
+            }
+          },
+          {
+            "link": false,
+            "description": "Facilities",
+            "helptext": "Se facilita un listado de los tipos de Sede",
+            "id": 2225,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 2915,
+            "action": {
+              "url": "servicesout/PG_vfacility/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 125,
+                "where": {
+                  "PG_vfacility": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_headquarter"
+                },
+                {
+                  "source": "denomination",
+                  "destination": "headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vfacility/filter",
+              "config": {
+                "datacase": 125
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            },
+            "actionHelpImg": {
+              "url": "services/imagesClass/212",
+              "image": "true",
+              "size": "M"
+            }
+          },
+          {
+            "link": false,
+            "description": "Elementos de urbanización",
+            "helptext": "",
+            "id": 2226,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 2915,
+            "action": {
+              "url": "servicesout/PG_vurbanization_element/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 126,
+                "where": {
+                  "PG_vurbanization_element": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vurbanization_element/filter",
+              "config": {
+                "datacase": 126
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          },
+          {
+            "link": false,
+            "description": "Zonas",
+            "helptext": "",
+            "id": 2229,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 2915,
+            "action": {
+              "url": "servicesout/PG_vzone/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 360,
+                "where": {
+                  "PG_vzone": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vzone/filter",
+              "config": {
+                "datacase": 360
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          },
+          {
+            "link": false,
+            "description": "Accesos",
+            "helptext": "",
+            "id": 2245,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 2915,
+            "action": {
+              "url": "servicesout/PG_vaccesses/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 1187,
+                "where": {
+                  "PG_vaccesses": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vaccesses/filter",
+              "config": {
+                "datacase": 1187
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          },
+          {
+            "link": false,
+            "description": "Zonas de recarga eléctrica",
+            "helptext": "",
+            "id": 2244,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 2915,
+            "action": {
+              "url": "servicesout/PG_vfacility/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 2398,
+                "where": {
+                  "PG_vfacility": ""
+                }
+              },
+              "data": {
+                "id_facility_type": "802"
+              },
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vfacility/filter",
+              "config": {
+                "datacase": 2398
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          },
+          {
+            "link": false,
+            "description": "Sistemas",
+            "helptext": "",
+            "id": 2254,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 2915,
+            "action": {
+              "url": "servicesout/PG_vsystem/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 196,
+                "where": {
+                  "PG_vsystem": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_current_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vsystem/filter",
+              "config": {
+                "datacase": 196
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          },
+          {
+            "link": false,
+            "description": "Bienes muebles",
+            "helptext": "",
+            "id": 2228,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 2915,
+            "action": {
+              "url": "servicesout/PG_vequipment/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 2401,
+                "where": {
+                  "PG_vequipment": "id_entity not in (21)"
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_current_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vequipment/filter",
+              "config": {
+                "datacase": 2401
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          }
+        ]
+      },
+      {
+        "iddatacase": 1186,
+        "helptext": "",
+        "id": 2976,
+        "groupname": "Ocupación/Uso",
+        "relateds": [
+          {
+            "link": false,
+            "description": "Unidades ubicadas",
+            "helptext": "",
+            "id": 2231,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 2976,
+            "action": {
+              "url": "servicesout/PG_vunits_in_building/treeDialog",
+              "type": "TREE",
+              "config": {
+                "datacase": 2342,
+                "where": {
+                  "PG_vunits_in_building": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "filter_for_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vunits_in_building/filterTreeDialog",
+              "config": {
+                "datacase": 2342
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          },
+          {
+            "link": false,
+            "description": "Personas ubicadas",
+            "helptext": "",
+            "id": 2232,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 2976,
+            "action": {
+              "url": "servicesout/PG_vperson_location/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 288,
+                "where": {
+                  "PG_vperson_location": ""
+                }
+              },
+              "data": {},
+              "sourcedest": []
+            },
+            "actionFilter": {
+              "url": "PG_vperson_location/filter",
+              "config": {
+                "datacase": 288
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          },
+          {
+            "link": false,
+            "description": "Funciones",
+            "helptext": "",
+            "id": 2233,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 2976,
+            "action": {
+              "url": "servicesout/PG_vheadquarter_function_use/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 748,
+                "where": {
+                  "PG_vheadquarter_function_use": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vheadquarter_function_use/filter",
+              "config": {
+                "datacase": 748
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          }
+        ]
+      },
+      {
+        "iddatacase": 1186,
+        "helptext": "",
+        "id": 2929,
+        "groupname": "Personas de contacto",
+        "relateds": [
+          {
+            "link": false,
+            "description": "Personas de contacto",
+            "helptext": "",
+            "id": 2234,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 2929,
+            "action": {
+              "url": "servicesout/PG_vcontact_person/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 161,
+                "where": {
+                  "PG_vcontact_person": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vcontact_person/filter",
+              "config": {
+                "datacase": 161
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          }
+        ]
+      },
+      {
+        "iddatacase": 1186,
+        "helptext": "",
+        "id": 3105,
+        "groupname": "Información patrimonial",
+        "relateds": [
+          {
+            "link": false,
+            "description": "Inmuebles",
+            "helptext": "",
+            "id": 2235,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 3105,
+            "action": {
+              "url": "servicesout/PG_vheadquarter_properties/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 708,
+                "where": {
+                  "PG_vheadquarter_properties": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vheadquarter_properties/filter",
+              "config": {
+                "datacase": 708
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          }
+        ]
+      },
+      {
+        "iddatacase": 1186,
+        "helptext": "",
+        "id": 1106,
+        "groupname": "PGOU",
+        "relateds": [
+          {
+            "link": false,
+            "description": "PGOU",
+            "helptext": "",
+            "id": 2258,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 1106,
+            "action": {
+              "url": "servicesout/PG_vpgou_entity/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 1198,
+                "where": {
+                  "PG_vpgou_entity": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vpgou_entity/filter",
+              "config": {
+                "datacase": 1198
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          }
+        ]
+      },
+      {
+        "iddatacase": 1186,
+        "helptext": "",
+        "id": 3320,
+        "groupname": "Información de mantenimiento",
+        "relateds": [
+          {
+            "link": false,
+            "description": "Horarios",
+            "helptext": "",
+            "id": 2237,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 3320,
+            "action": {
+              "url": "servicesout/PG_timetable/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 121,
+                "where": {
+                  "PG_timetable": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_timetable/filter",
+              "config": {
+                "datacase": 121
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          },
+          {
+            "link": false,
+            "description": "Proyectos",
+            "helptext": "",
+            "id": 2238,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 3320,
+            "action": {
+              "url": "servicesout/PG_vproject_work_entities_affected_for_project/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 1807,
+                "where": {
+                  "PG_vproject_work_entities_affected_for_project": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vproject_work_entities_affected_for_project/filter",
+              "config": {
+                "datacase": 1807
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          },
+          {
+            "link": false,
+            "description": "Obras",
+            "helptext": "",
+            "id": 2239,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 3320,
+            "action": {
+              "url": "servicesout/PG_vproject_work_entities_affected_for_building_work/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 1811,
+                "where": {
+                  "PG_vproject_work_entities_affected_for_building_work": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vproject_work_entities_affected_for_building_work/filter",
+              "config": {
+                "datacase": 1811
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          },
+          {
+            "link": false,
+            "description": "Órdenes de trabajo",
+            "helptext": "",
+            "id": 2260,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 3320,
+            "action": {
+              "url": "servicesout/PG_vwork_order/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 575,
+                "where": {
+                  "PG_vwork_order": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vwork_order/filter",
+              "config": {
+                "datacase": 575
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          },
+          {
+            "link": false,
+            "description": "Inspecciones técnicas",
+            "helptext": "",
+            "id": 2241,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 3320,
+            "action": {
+              "url": "servicesout/PG_vinspection_for_headquarter/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 718,
+                "where": {
+                  "PG_vinspection_for_headquarter": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vinspection_for_headquarter/filter",
+              "config": {
+                "datacase": 718
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          },
+          {
+            "link": false,
+            "description": "Medidores",
+            "helptext": "",
+            "id": 2240,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 3320,
+            "action": {
+              "url": "servicesout/PG_vequipment_meter/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 354,
+                "where": {
+                  "PG_vequipment_meter": ""
+                }
+              },
+              "data": {
+                "id_entity": "21"
+              },
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_current_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vequipment_meter/filter",
+              "config": {
+                "datacase": 354
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          },
+          {
+            "link": false,
+            "description": "Contratos de suministro",
+            "helptext": "",
+            "id": 2247,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 3320,
+            "action": {
+              "url": "servicesout/PG_vcontract_supplies/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 352,
+                "where": {
+                  "PG_vcontract_supplies": "id_entity=161"
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_entity"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vcontract_supplies/filter",
+              "config": {
+                "datacase": 352
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          },
+          {
+            "link": false,
+            "description": "Contratos de servicios",
+            "helptext": "",
+            "id": 2248,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 3320,
+            "action": {
+              "url": "servicesout/PG_vcontract/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 200,
+                "where": {
+                  "PG_vcontract": "id_entity=160"
+                }
+              },
+              "data": {},
+              "sourcedest": []
+            },
+            "actionFilter": {
+              "url": "PG_vcontract/filter",
+              "config": {
+                "datacase": 200
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          }
+        ]
+      },
+      {
+        "iddatacase": 1186,
+        "helptext": "",
+        "id": 756,
+        "groupname": "Características técnicas",
+        "relateds": [
+          {
+            "link": false,
+            "description": "Características específicas",
+            "helptext": "",
+            "id": 2236,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 756,
+            "action": {
+              "url": "servicesout/PG_vtechnical_characteristics_value/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 499,
+                "where": {
+                  "PG_vtechnical_characteristics_value": "(id_visibility not in (1542) or id_visibility is null)"
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_specific_entity"
+                },
+                {
+                  "source": "id_entity",
+                  "destination": "id_entity"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vtechnical_characteristics_value/filter",
+              "config": {
+                "datacase": 499
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          }
+        ]
+      },
+      {
+        "iddatacase": 1186,
+        "helptext": "",
+        "id": 165,
+        "groupname": "Datos económicos",
+        "relateds": [
+          {
+            "link": false,
+            "description": "Transacciones económicas",
+            "helptext": "",
+            "id": 4024,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 165,
+            "action": {
+              "url": "servicesout/PG_vvaluation/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 228,
+                "where": {
+                  "PG_vvaluation": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_equipment"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vvaluation/filter",
+              "config": {
+                "datacase": 228
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          }
+        ]
+      },
+      {
+        "iddatacase": 1186,
+        "helptext": "",
+        "id": 1435,
+        "groupname": "Expedientes",
+        "relateds": [
+          {
+            "link": false,
+            "description": "Expedientes",
+            "helptext": "",
+            "id": 5065,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 1435,
+            "action": {
+              "url": "servicesout/PG_velectronic_dossier_entities_headquarter_from_entity/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 1697,
+                "where": {
+                  "PG_velectronic_dossier_entities_headquarter_from_entity": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_velectronic_dossier_entities_headquarter_from_entity/filter",
+              "config": {
+                "datacase": 1697
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          }
+        ]
+      },
+      {
+        "iddatacase": 1186,
+        "helptext": "",
+        "id": 2667,
+        "groupname": "Modelo BIM",
+        "relateds": [
+          {
+            "link": false,
+            "description": "Modelo BIM",
+            "helptext": "",
+            "id": 5066,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 2667,
+            "action": {
+              "url": "servicesout/PG_vbim_ifc_entities/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 2490,
+                "where": {
+                  "PG_vbim_ifc_entities": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vbim_ifc_entities/filter",
+              "config": {
+                "datacase": 2490
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          }
+        ]
+      },
+      {
+        "iddatacase": 1186,
+        "helptext": "",
+        "id": 298,
+        "groupname": "Documentos",
+        "relateds": [
+          {
+            "link": false,
+            "description": "Documentos",
+            "helptext": "",
+            "id": 2243,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 298,
+            "action": {
+              "url": "servicesout/PG_vdocuments/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 135,
+                "where": {
+                  "PG_vdocuments": ""
+                }
+              },
+              "data": {
+                "tablename": "PG_headquarter"
+              },
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "doclink"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vdocuments/filter",
+              "config": {
+                "datacase": 135
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          },
+          {
+            "link": false,
+            "description": "Documents tree",
+            "helptext": "",
+            "id": 10765,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 298,
+            "action": {
+              "url": "servicesout/PG_vdocuments/treeDialog",
+              "type": "TREE",
+              "config": {
+                "datacase": 135,
+                "where": {
+                  "PG_vdocuments": ""
+                }
+              },
+              "data": {
+                "tablename": "PG_headquarter"
+              },
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "doclink"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vdocuments/filterTreeDialog",
+              "config": {
+                "datacase": 135
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          }
+        ]
+      },
+      {
+        "iddatacase": 1186,
+        "helptext": "",
+        "id": 2846,
+        "groupname": "Iniciativas",
+        "relateds": [
+          {
+            "link": false,
+            "description": "Iniciativas",
+            "helptext": "",
+            "id": 2262,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 2846,
+            "action": {
+              "url": "servicesout/PG_vinitiative_headquarter_initiative/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 1382,
+                "where": {
+                  "PG_vinitiative_headquarter_initiative": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vinitiative_headquarter_initiative/filter",
+              "config": {
+                "datacase": 1382
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          }
+        ]
+      },
+      {
+        "iddatacase": 1186,
+        "helptext": "",
+        "id": 85,
+        "groupname": "Histórico/Trazas",
+        "relateds": [
+          {
+            "link": false,
+            "description": "Histórico/Trazas",
+            "helptext": "",
+            "id": 5067,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 85,
+            "action": {
+              "url": "servicesout/PG_vchange_of_status/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 1008,
+                "where": {
+                  "PG_vchange_of_status": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id_entity",
+                  "destination": "id_entity"
+                },
+                {
+                  "source": "id",
+                  "destination": "id_row"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vchange_of_status/filter",
+              "config": {
+                "datacase": 1008
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          }
+        ]
+      },
+      {
+        "iddatacase": 1186,
+        "helptext": "",
+        "id": 1236,
+        "groupname": "Adscripciones",
+        "relateds": [
+          {
+            "link": false,
+            "description": "Adscripciones",
+            "helptext": "",
+            "id": 8542,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 1236,
+            "action": {
+              "url": "servicesout/PG_vsubscription_change_for_headquarter/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 2422,
+                "where": {
+                  "PG_vsubscription_change_for_headquarter": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_headquarter"
+                },
+                {
+                  "source": "id_entity",
+                  "destination": "id_entity"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vsubscription_change_for_headquarter/filter",
+              "config": {
+                "datacase": 2422
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          }
+        ]
+      },
+      {
+        "iddatacase": 1186,
+        "helptext": "",
+        "id": 2995,
+        "groupname": "Huella de Carbono",
+        "relateds": [
+          {
+            "link": false,
+            "description": "Huella de Carbono",
+            "helptext": "",
+            "id": 2242,
+            "add": true,
+            "buttons": true,
+            "templateid": null,
+            "target": "_self",
+            "filter": true,
+            "iddatacase": 1186,
+            "idgroup": 2995,
+            "action": {
+              "url": "servicesout/PG_vequipment_period_value_carbon_footprint_group_by_headquarter/list",
+              "type": "LIST",
+              "config": {
+                "datacase": 990,
+                "where": {
+                  "PG_vequipment_period_value_carbon_footprint_group_by_headquarter": ""
+                }
+              },
+              "data": {},
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_current_headquarter"
+                }
+              ]
+            },
+            "actionFilter": {
+              "url": "PG_vequipment_period_value_carbon_footprint_group_by_headquarter/filter",
+              "config": {
+                "datacase": 990
+              }
+            },
+            "actionLink": {
+              "url": null,
+              "type": "",
+              "config": {
+                "where": null
+              },
+              "sourcedest": []
+            },
+            "actionFilterLink": {
+              "url": null,
+              "config": {}
+            }
+          }
+        ]
+      }
+    ],
+    "graphics": [
+      {
+        "idGrap": 337,
+        "description": "Por año y Sede",
+        "title": "Consumos de Gasoil (m3 / persona)",
+        "vwhere": "{\"PG_vheadquarter\":\"id in (1399,1400,1401) and id_status in (1,2)\"}",
+        "graphzoom": true,
+        "graphlabelx": false,
+        "action": {
+          "url": "servicesout/PG_vheadquarter/kpigraphbar",
+          "data": {},
+          "config": {
+            "where": {
+              "PG_vheadquarter": "id in (1399,1400,1401) and id_status in (1,2)"
+            },
+            "pagesize": 0,
+            "page": 1,
+            "graphsubtype": "",
+            "graphtools": true,
+            "graphlegend": true,
+            "graphshowvalue": false,
+            "grapharea": true,
+            "graphline": true,
+            "graphzoom": true,
+            "graphlabelx": false
+          }
+        },
+        "type": "BAR",
+        "regression": false,
+        "size": 2,
+        "sourceDest": [
+          {
+            "source": "Grafico1",
+            "isParam": true,
+            "destination": "code"
+          }
+        ]
+      },
+      {
+        "idGrap": 334,
+        "description": "Por tipo",
+        "title": "Sedes",
+        "vwhere": "{\"PG_vheadquarter\":\"id_type in (select id_classification from entity_classification where id_entity = 1) and id_status in (1,2) and id_status  is not null\"}",
+        "graphzoom": false,
+        "graphlabelx": false,
+        "action": {
+          "url": "servicesout/PG_vheadquarter/kpigraphpie",
+          "data": {},
+          "config": {
+            "where": {
+              "PG_vheadquarter": "id_type in (select id_classification from entity_classification where id_entity = 1) and id_status in (1,2) and id_status  is not null"
+            },
+            "pagesize": 0,
+            "page": 1,
+            "graphsubtype": "",
+            "graphtools": true,
+            "graphlegend": true
+          }
+        },
+        "type": "PIE",
+        "size": 4,
+        "sourceDest": [
+          {
+            "source": "Grafico2",
+            "isParam": true,
+            "destination": "code"
+          }
+        ]
+      }
+    ],
+    "workflow": [],
+    "bim": [
+      {
+        "idcaseusebim": 21,
+        "descriptionbim": "BIM2",
+        "ismainbim": true,
+        "fieldgroup": 16900,
+        "layers": [
+          {
+            "idcaseusebim": 21,
+            "idcaseusebimlayer": 22,
+            "service": "PG_vbim_ifc_entities",
+            "where": {
+              "PG_vbim_ifc_entities": ""
+            },
+            "descriptionlayer": "BIM2",
+            "iddatacase": 1186,
+            "action": {
+              "url": "servicesout/PG_vbim_ifc_entities/bim",
+              "data": {},
+              "config": {
+                "page": 1,
+                "pagesize": 0,
+                "datacase": 1186,
+                "where": {
+                  "PG_vbim_ifc_entities": ""
+                },
+                "keyFields": ["id_bim_ifc", "bim_ifc_code"]
+              }
+            },
+            "sourceDest": [
+              {
+                "source": "id",
+                "destination": "id_headquarter"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "diagrams": [],
+    "synoptics": [],
+    "actionValidate": {
+      "url": "services/flow",
+      "config": {
+        "datacase": 1186,
+        "type": "VALIDATION"
+      }
+    },
+    "fieldsKey": ["id"],
+    "fieldsDoc": ["id"],
+    "fieldsTitle": ["code", "denomination"],
+    "mainkey": "id",
+    "tabs": [
+      {
+        "descri": "Datos principales",
+        "visible": true,
+        "id": 5,
+        "order": 1
+      },
+      {
+        "descri": "Pestaña ***",
+        "visible": true,
+        "id": 42,
+        "order": 2
+      },
+      {
+        "descri": "Gráficos",
+        "visible": true,
+        "id": 46,
+        "order": 3
+      },
+      {
+        "descri": "Pestaña de prueba con texto largo 1",
+        "visible": true,
+        "id": 47,
+        "order": 4
+      },
+      {
+        "descri": "Pestaña de prueba con texto largo 2",
+        "visible": true,
+        "id": 48,
+        "order": 5
+      },
+      {
+        "descri": "Pestaña de prueba con texto largo 3",
+        "visible": true,
+        "id": 49,
+        "order": 6
+      },
+      {
+        "descri": "Pestaña de prueba con texto largo 4",
+        "visible": true,
+        "id": 50,
+        "order": 7
+      },
+      {
+        "descri": "Pestaña de prueba con texto largo 5",
+        "visible": true,
+        "id": 51,
+        "order": 8
+      },
+      {
+        "descri": "Pestaña de prueba con texto largo 6",
+        "visible": true,
+        "id": 52,
+        "order": 9
+      }
+    ]
+  },
+  "data": {
+    "groups": [
+      {
+        "id": 195,
+        "name": "Galería",
+        "forceunfolded": false,
+        "idtab": 5,
+        "gallery": true,
+        "map": false,
+        "idcaseusemap": null,
+        "graph": false,
+        "groupsize": "100",
+        "fields": [],
+        "bim": false,
+        "idcaseusebim": null,
+        "synoptic": false,
+        "styles": {
+          "borderColor": "",
+          "backgroundColor": ""
+        },
+        "hidecondition": true
+      },
+      {
+        "id": 156,
+        "name": "Datos principales",
+        "forceunfolded": true,
+        "idtab": 5,
+        "gallery": false,
+        "map": false,
+        "idcaseusemap": null,
+        "graph": false,
+        "groupsize": "50",
+        "fields": [
+          {
+            "id": "id_title",
+            "type": "HIDDEN",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "id_country",
+            "type": "COMBO",
+            "default": [],
+            "value": [],
+            "refreshonchange": false,
+            "label": "id_country",
+            "fieldsize": "50",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            },
+            "combo": {
+              "literal": "country_name",
+              "parent": "",
+              "simple": true,
+              "hasParent": false,
+              "combowaitparent": false,
+              "empty": false,
+              "action": {
+                "url": "servicesout/PG_country/listCombo",
+                "config": {
+                  "page": 1,
+                  "pagesize": 0,
+                  "where": {
+                    "PG_country": ""
+                  }
+                },
+                "data": {},
+                "sourcedest": [
+                  {
+                    "source": "country_name",
+                    "destination": "name"
+                  }
+                ],
+                "sourcedestsetter": [
+                  {
+                    "source": "id",
+                    "destination": "id_country"
+                  },
+                  {
+                    "source": "name",
+                    "destination": "country_name"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "id_region",
+            "type": "COMBO",
+            "default": [],
+            "value": [],
+            "refreshonchange": false,
+            "label": "id_region",
+            "fieldsize": "50",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            },
+            "combo": {
+              "literal": "region_name",
+              "parent": "id_country",
+              "simple": true,
+              "hasParent": true,
+              "combowaitparent": true,
+              "empty": false,
+              "action": {
+                "url": "servicesout/PG_region/listCombo",
+                "config": {
+                  "page": 1,
+                  "pagesize": 0,
+                  "where": {
+                    "PG_region": ""
+                  }
+                },
+                "data": {
+                  "id": "4"
+                },
+                "sourcedest": [],
+                "sourcedestsetter": [
+                  {
+                    "source": "id",
+                    "destination": "id_region"
+                  },
+                  {
+                    "source": "name",
+                    "destination": "region_name"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "id_province",
+            "type": "HIDDEN",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "id",
+            "type": "INTEGER",
+            "default": "",
+            "value": 2603,
+            "refreshonchange": false,
+            "label": "Id",
+            "actionHelpImg": {
+              "url": "services/imagesClass/29",
+              "image": true,
+              "size": "L"
+            },
+            "fieldsize": "25",
+            "helptext": "Ayuda de campo xxxx ***",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": true,
+              "required": false,
+              "nospaces": true
+            }
+          },
+          {
+            "id": "id_entity",
+            "type": "HIDDEN",
+            "default": "1",
+            "value": 104,
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "entity_name",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "Train Stations",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "sidee",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "code",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": true,
+            "label": "Código",
+            "actionHelpImg": {
+              "url": "services/imagesClass/31",
+              "image": "true",
+              "size": "M"
+            },
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": true,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": false,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": true,
+              "maxlen": 6,
+              "nospaces": false,
+              "actionValidate": {
+                "url": "services/flow",
+                "config": {
+                  "idfield": 44836,
+                  "type": "VALIDATION"
+                }
+              }
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "denomination",
+            "type": "STRING",
+            "default": "",
+            "value": "prueba",
+            "refreshonchange": true,
+            "label": "Nombre",
+            "actionHelpImg": {
+              "url": "services/imagesClass/31",
+              "image": "true",
+              "size": "L"
+            },
+            "fieldsize": "75",
+            "helptext": "hola",
+            "helpvisibleedit": false,
+            "helpvisibleread": true,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "link": {
+              "blank": false,
+              "urlfilteroracle": "",
+              "filtersqlserver": "",
+              "filterpostgre": "",
+              "urlfilterpostgre": "",
+              "urlfiltersqlserver": "",
+              "filteroracle": "",
+              "idhtmlviews": null,
+              "action": {
+                "url": "",
+                "type": "MENU",
+                "config": {
+                  "where": null,
+                  "pagesize": 10,
+                  "page": 1
+                }
+              },
+              "sourcedest": []
+            },
+            "validation": {
+              "readonly": false,
+              "required": true,
+              "maxlen": 200,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "description",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Descripción",
+            "actionHelpImg": {
+              "url": "services/imagesClass/31",
+              "image": "true",
+              "size": "S"
+            },
+            "fieldsize": "50",
+            "helptext": "aaa ***",
+            "helpvisibleedit": true,
+            "helpvisibleread": true,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": true,
+            "fonttextdecunderline": true,
+            "fontcolor": "#912727",
+            "fontsize": 30,
+            "fixed": false,
+            "link": {
+              "blank": false,
+              "urlfilteroracle": "",
+              "filtersqlserver": "",
+              "filterpostgre": "",
+              "urlfilterpostgre": "",
+              "urlfiltersqlserver": "",
+              "filteroracle": "",
+              "idhtmlviews": null,
+              "action": {
+                "url": "",
+                "type": "PROFILES",
+                "config": {
+                  "where": {
+                    "PG_vbuilding": ""
+                  },
+                  "pagesize": 10,
+                  "page": 1
+                }
+              },
+              "sourcedest": []
+            },
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 250,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "id_type",
+            "type": "COMBO",
+            "default": [],
+            "value": [421],
+            "refreshonchange": false,
+            "label": "Tipo",
+            "fieldsize": "50",
+            "helptext": "Se facilita un listado de los tipos de Sede",
+            "helpvisibleedit": true,
+            "helpvisibleread": true,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": true,
+              "nospaces": false
+            },
+            "combo": {
+              "literal": "type",
+              "parent": "",
+              "simple": true,
+              "hasParent": false,
+              "combowaitparent": false,
+              "empty": false,
+              "action": {
+                "url": "servicesout/PG_vclassification/listCombo",
+                "config": {
+                  "page": 1,
+                  "pagesize": 0,
+                  "where": {
+                    "PG_vclassification": "id in (select id_classification from entity_classification where id_entity = 1)"
+                  }
+                },
+                "data": {},
+                "sourcedest": [],
+                "sourcedestsetter": []
+              }
+            }
+          },
+          {
+            "id": "id_responsability_zone",
+            "type": "LISTDIALOG",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "label": "Área de responsabilidad",
+            "fieldsize": "50",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": true,
+              "required": false,
+              "nospaces": false
+            },
+            "list": {
+              "actionList": {
+                "url": "servicesout/PG_vresponsability_zone/listDialog",
+                "config": {
+                  "datacase": 2095,
+                  "page": 1,
+                  "where": {
+                    "PG_vresponsability_zone": ""
+                  }
+                },
+                "data": {}
+              },
+              "actionFilter": {
+                "url": "servicesout/PG_vresponsability_zone/filterDialog",
+                "config": {}
+              },
+              "showFilter": true,
+              "sourcedest": [],
+              "sourcedestsetter": [
+                {
+                  "source": "id",
+                  "destination": "id_responsability_zone",
+                  "sourcestr": ""
+                },
+                {
+                  "source": "complete_code",
+                  "destination": "responsability_zone_complete_code",
+                  "sourcestr": ""
+                },
+                {
+                  "source": "complete_name",
+                  "destination": "responsability_zone_complete_name",
+                  "sourcestr": ""
+                }
+              ],
+              "literal": "responsability_zone_complete_name"
+            }
+          },
+          {
+            "id": "responsability_zone_complete_name",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "responsability_zone_complete_code",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "id_sub_responsability_zone",
+            "type": "LISTDIALOG",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "label": "Subárea de responsabilidad",
+            "fieldsize": "50",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            },
+            "list": {
+              "actionList": {
+                "url": "servicesout/PG_vsub_responsability_zone/listDialog",
+                "config": {
+                  "datacase": 673,
+                  "page": 1,
+                  "where": {
+                    "PG_vsub_responsability_zone": ""
+                  }
+                },
+                "data": {}
+              },
+              "actionFilter": {
+                "url": "servicesout/PG_vsub_responsability_zone/filterDialog",
+                "config": {}
+              },
+              "showFilter": false,
+              "sourcedest": [
+                {
+                  "source": "id_responsability_zone",
+                  "destination": "id_responsability_zone"
+                }
+              ],
+              "sourcedestsetter": [
+                {
+                  "source": "id",
+                  "destination": "id_sub_responsability_zone",
+                  "sourcestr": ""
+                },
+                {
+                  "source": "name",
+                  "destination": "sub_responsability_zone_name",
+                  "sourcestr": ""
+                }
+              ],
+              "literal": "sub_responsability_zone_name"
+            }
+          },
+          {
+            "id": "id_manager",
+            "type": "LISTDIALOG",
+            "default": "",
+            "value": 12,
+            "refreshonchange": false,
+            "label": "Gestor",
+            "fieldsize": "100",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            },
+            "list": {
+              "actionList": {
+                "url": "servicesout/PG_manager/listDialog",
+                "config": {
+                  "datacase": 138,
+                  "page": 1,
+                  "where": {
+                    "PG_manager": ""
+                  }
+                },
+                "data": {}
+              },
+              "actionFilter": {
+                "url": "servicesout/PG_manager/filterDialog",
+                "config": {}
+              },
+              "showFilter": false,
+              "sourcedest": [],
+              "sourcedestsetter": [
+                {
+                  "source": "id",
+                  "destination": "id_manager",
+                  "sourcestr": ""
+                },
+                {
+                  "source": "text",
+                  "destination": "manager",
+                  "sourcestr": ""
+                }
+              ],
+              "literal": "manager"
+            }
+          },
+          {
+            "id": "economic_unit_code",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "type",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "Estación de Transporte de Viajeros",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "manager",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "Consejería de Hacienda y Financiación Europea",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "id_site",
+            "type": "HIDDEN",
+            "default": null,
+            "value": null,
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "polygon",
+            "type": "GEOMETRY",
+            "default": "",
+            "value": {
+              "geometry": {
+                "type": "Polygon",
+                "coordinates": []
+              }
+            },
+            "refreshonchange": false,
+            "label": "polígono",
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false,
+              "visibleeditable": true
+            },
+            "hasz": false
+          },
+          {
+            "id": "id_economic_unit",
+            "type": "LISTDIALOG",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "label": "Unidad económica",
+            "fieldsize": "50",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            },
+            "list": {
+              "actionList": {
+                "url": "servicesout/PG_veconomic_unit/listDialog",
+                "config": {
+                  "datacase": 1131,
+                  "page": 1,
+                  "where": {
+                    "PG_veconomic_unit": ""
+                  }
+                },
+                "data": {}
+              },
+              "actionFilter": {
+                "url": "servicesout/PG_veconomic_unit/filterDialog",
+                "config": {}
+              },
+              "showFilter": true,
+              "sourcedest": [],
+              "sourcedestsetter": [
+                {
+                  "source": "code",
+                  "destination": "economic_unit_code",
+                  "sourcestr": ""
+                },
+                {
+                  "source": "id",
+                  "destination": "id_economic_unit",
+                  "sourcestr": ""
+                },
+                {
+                  "source": "id_cost_center",
+                  "destination": "id_cost_center",
+                  "sourcestr": ""
+                },
+                {
+                  "source": "name",
+                  "destination": "economic_unit_name",
+                  "sourcestr": ""
+                },
+                {
+                  "source": "cost_center_name",
+                  "destination": "cost_center_name",
+                  "sourcestr": ""
+                }
+              ],
+              "literal": "economic_unit_name"
+            }
+          },
+          {
+            "id": "id_cost_center",
+            "type": "COMBO",
+            "default": [],
+            "value": [],
+            "refreshonchange": false,
+            "label": "Centro de Coste",
+            "fieldsize": "50",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": true,
+              "required": false,
+              "nospaces": false
+            },
+            "combo": {
+              "literal": "cost_center_name",
+              "parent": "",
+              "simple": true,
+              "hasParent": false,
+              "combowaitparent": false,
+              "empty": false,
+              "action": {
+                "url": "servicesout/PG_cost_center/listCombo",
+                "config": {
+                  "page": 1,
+                  "pagesize": 0,
+                  "where": {
+                    "PG_cost_center": ""
+                  }
+                },
+                "data": {},
+                "sourcedest": [],
+                "sourcedestsetter": []
+              }
+            }
+          },
+          {
+            "id": "cost_center_code",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "cost_center_name",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "id_failure_type",
+            "type": "COMBO",
+            "default": [],
+            "value": [],
+            "refreshonchange": false,
+            "label": "Tipo Operación Mantenimiento",
+            "fieldsize": "100",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            },
+            "combo": {
+              "literal": "failure_type_name",
+              "parent": "",
+              "simple": true,
+              "hasParent": false,
+              "combowaitparent": false,
+              "empty": false,
+              "action": {
+                "url": "servicesout/PG_failure_type/listCombo",
+                "config": {
+                  "page": 1,
+                  "pagesize": 0,
+                  "where": {
+                    "PG_failure_type": ""
+                  }
+                },
+                "data": {},
+                "sourcedest": [],
+                "sourcedestsetter": []
+              }
+            }
+          },
+          {
+            "id": "failure_type_name",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "responsability_zone_code",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "responsability_zone_name",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "sub_responsability_zone_code",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "sub_responsability_zone_name",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "economic_unit_name",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "carbon_footprint_last_year",
+            "type": "HIDDEN",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "carbon_footprint_average",
+            "type": "HIDDEN",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "realiability_degree_name",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "building_works",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "effective_number",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "equivalent_inhabita_number",
+            "type": "HIDDEN",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "id_class_type",
+            "type": "HIDDEN",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "id_class_subtype",
+            "type": "HIDDEN",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "class_name",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "class_subtype_name",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "listrel_building",
+            "type": "LISTREL",
+            "default": "",
+            "value": {
+              "original": []
+            },
+            "refreshonchange": false,
+            "label": "listrel_building ***",
+            "actionHelpImg": {
+              "url": "services/imagesClass/223",
+              "image": "true",
+              "size": "XL"
+            },
+            "fieldsize": "100",
+            "helptext": "holis ***",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "nameiconcolumnlist": "",
+            "coloriconcolumnlist": "",
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixedcolwidth": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            },
+            "list": {
+              "sourcedest": [
+                {
+                  "source": "id",
+                  "destination": "id_headquarter"
+                }
+              ],
+              "keyFields": ["id"],
+              "actionList": {
+                "url": "servicesout/PG_vbuilding/listRel",
+                "config": {
+                  "where": {
+                    "PG_vbuilding": ""
+                  },
+                  "page": 1,
+                  "pagesize": 10,
+                  "datacase": 80
+                },
+                "data": {}
+              }
+            }
+          },
+          {
+            "id": "responsible_code",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "responsible_all",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "locality_id_council",
+            "type": "HIDDEN",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "locality_id_region",
+            "type": "HIDDEN",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "locality_id_country",
+            "type": "HIDDEN",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "locality_id_province",
+            "type": "HIDDEN",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "multipolygon2",
+            "type": "GEOMETRY",
+            "default": "",
+            "value": {
+              "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": []
+              }
+            },
+            "refreshonchange": false,
+            "label": "Multipolígono",
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false,
+              "visibleeditable": true
+            },
+            "hasz": true
+          },
+          {
+            "id": "point",
+            "type": "GEOMETRY",
+            "default": "",
+            "value": {
+              "geometry": {
+                "type": "Point",
+                "coordinates": []
+              }
+            },
+            "refreshonchange": false,
+            "label": "punto",
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false,
+              "visibleeditable": true
+            },
+            "hasz": false
+          },
+          {
+            "id": "line",
+            "type": "GEOMETRY",
+            "default": "",
+            "value": {
+              "geometry": {
+                "type": "LineString",
+                "coordinates": []
+              }
+            },
+            "refreshonchange": false,
+            "label": "line",
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false,
+              "visibleeditable": true
+            },
+            "hasz": false
+          }
+        ],
+        "bim": false,
+        "idcaseusebim": null,
+        "synoptic": false,
+        "styles": {
+          "borderColor": "",
+          "backgroundColor": ""
+        },
+        "hidecondition": true
+      },
+      {
+        "id": 19652,
+        "name": "Sinopticos",
+        "forceunfolded": false,
+        "idtab": 5,
+        "gallery": false,
+        "map": false,
+        "idcaseusemap": null,
+        "graph": false,
+        "groupsize": "100",
+        "fields": [
+          {
+            "id": "remarks",
+            "type": "TEXT",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Observaciones",
+            "fieldsize": "100",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 1000,
+              "nospaces": false
+            }
+          },
+          {
+            "id": "web_of_protection",
+            "type": "TEXT",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Web de protección",
+            "fieldsize": "50",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 1000,
+              "nospaces": false
+            }
+          }
+        ],
+        "bim": false,
+        "idcaseusebim": null,
+        "synoptic": true,
+        "styles": {
+          "borderColor": "",
+          "backgroundColor": ""
+        },
+        "hidecondition": true
+      },
+      {
+        "id": 196,
+        "name": "Mapa",
+        "forceunfolded": false,
+        "idtab": 5,
+        "gallery": false,
+        "map": true,
+        "idcaseusemap": 1614,
+        "graph": false,
+        "groupsize": "50",
+        "fields": [],
+        "bim": false,
+        "idcaseusebim": null,
+        "synoptic": false,
+        "styles": {
+          "borderColor": "",
+          "backgroundColor": ""
+        },
+        "hidecondition": true
+      },
+      {
+        "id": 13623,
+        "name": "Ubicación",
+        "forceunfolded": true,
+        "idtab": 5,
+        "gallery": false,
+        "map": false,
+        "idcaseusemap": null,
+        "graph": false,
+        "groupsize": "100",
+        "fields": [
+          {
+            "id": "id_type_of_road",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Tipo de vía",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 255,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "road_name",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Dirección",
+            "fieldsize": "75",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 200,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "id_road",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Vía",
+            "fieldsize": "50",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 255,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "number",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "12.5",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "km",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "12.5",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "block",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "12.5",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "stairs",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "12.5",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "floor",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "12.5",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "door",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "12.5",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "id_postal_code",
+            "type": "HIDDEN",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "fieldsize": "25",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "postal_code_name",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "código postal",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 20,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "postal_code",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "25",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "id_locality",
+            "type": "LISTDIALOG",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "label": "Localidad",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            },
+            "list": {
+              "actionList": {
+                "url": "servicesout/PG_vlocality_for_filter/listDialog",
+                "config": {
+                  "datacase": 323,
+                  "page": 1,
+                  "where": {
+                    "PG_vlocality_for_filter": ""
+                  }
+                },
+                "data": {}
+              },
+              "actionFilter": {
+                "url": "servicesout/PG_vlocality_for_filter/filterDialog",
+                "config": {}
+              },
+              "showFilter": true,
+              "sourcedest": [
+                {
+                  "source": "remarks",
+                  "destination": "province_name"
+                }
+              ],
+              "sourcedestsetter": [
+                {
+                  "source": "id",
+                  "destination": "id_title",
+                  "sourcestr": ""
+                },
+                {
+                  "source": "name",
+                  "destination": "id_title",
+                  "sourcestr": ""
+                }
+              ],
+              "literal": "locality"
+            }
+          },
+          {
+            "id": "council_name",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Municipio",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": true,
+              "required": false,
+              "maxlen": 50,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "province_name",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Provincia",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": true,
+              "required": false,
+              "maxlen": 50,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "region_name",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Comunidad Autónoma",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": true,
+              "required": false,
+              "maxlen": 50,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "country_name",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "País",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": true,
+              "required": false,
+              "maxlen": 50,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "locality",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "type_of_road",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Tipo de vía",
+            "fieldsize": "50",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 50,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "road",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Vía",
+            "fieldsize": "50",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 50,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          }
+        ],
+        "bim": false,
+        "idcaseusebim": null,
+        "synoptic": false,
+        "styles": {
+          "borderColor": "",
+          "backgroundColor": ""
+        },
+        "hidecondition": true
+      },
+      {
+        "id": 302,
+        "name": "Protección",
+        "forceunfolded": true,
+        "idtab": 5,
+        "gallery": false,
+        "map": false,
+        "idcaseusemap": null,
+        "graph": false,
+        "groupsize": "50",
+        "fields": [
+          {
+            "id": "id_type_of_protection",
+            "type": "COMBO",
+            "default": [],
+            "value": [],
+            "refreshonchange": false,
+            "label": "Tipo de protección",
+            "fieldsize": "50",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            },
+            "combo": {
+              "literal": "type_of_protection",
+              "parent": "",
+              "simple": true,
+              "hasParent": false,
+              "combowaitparent": false,
+              "empty": false,
+              "action": {
+                "url": "servicesout/PG_type_of_protection/listCombo",
+                "config": {
+                  "page": 1,
+                  "pagesize": 0,
+                  "where": {
+                    "PG_type_of_protection": ""
+                  }
+                },
+                "data": {},
+                "sourcedest": [],
+                "sourcedestsetter": []
+              }
+            }
+          },
+          {
+            "id": "type_of_protection",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "year_of_protection",
+            "type": "HOUR",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Año de protección",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false,
+              "validatedate": {
+                "type": "NONE",
+                "value": null,
+                "msg": "La fecha ingresada debe ser mayor o igual que la fecha establecida",
+                "lock": true
+              }
+            }
+          },
+          {
+            "id": "code_of_protection",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Código de protección",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 50,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "id_category_of_protection",
+            "type": "COMBO",
+            "default": [],
+            "value": [],
+            "refreshonchange": false,
+            "label": "Categoria de protección",
+            "fieldsize": "50",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            },
+            "combo": {
+              "literal": "category_of_protection",
+              "parent": "",
+              "simple": true,
+              "hasParent": false,
+              "combowaitparent": false,
+              "empty": false,
+              "action": {
+                "url": "servicesout/PG_category_of_protection/listCombo",
+                "config": {
+                  "page": 1,
+                  "pagesize": 0,
+                  "where": {
+                    "PG_category_of_protection": ""
+                  }
+                },
+                "data": {},
+                "sourcedest": [],
+                "sourcedestsetter": []
+              }
+            }
+          },
+          {
+            "id": "category_of_protection",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          }
+        ],
+        "bim": false,
+        "idcaseusebim": null,
+        "synoptic": false,
+        "styles": {
+          "borderColor": "",
+          "backgroundColor": ""
+        },
+        "hidecondition": true
+      },
+      {
+        "id": 158,
+        "name": "Áreas",
+        "forceunfolded": true,
+        "idtab": 47,
+        "gallery": false,
+        "map": false,
+        "idcaseusemap": null,
+        "graph": false,
+        "groupsize": "50",
+        "fields": [
+          {
+            "id": "land_area",
+            "type": "DOUBLE",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "label": "Área del terreno",
+            "fieldsize": "25",
+            "helptext": "hola",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": true,
+              "nospaces": false
+            },
+            "units": {
+              "tag": "ZK",
+              "description": "Gramo",
+              "iso": "g"
+            }
+          },
+          {
+            "id": "built_area",
+            "type": "DOUBLE",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "label": "Área construida",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            },
+            "units": {
+              "tag": "د.ت",
+              "description": "Gramos por Kilómetro",
+              "iso": "g/Km"
+            }
+          },
+          {
+            "id": "calculated_built_area_of_infraestructures",
+            "type": "DOUBLE",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "label": "Superf. calc. infraestructura",
+            "fieldsize": "25",
+            "helptext": "Superficie calculada a partir de los Edificios, Instalaciones y El. Urbanización",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            }
+          },
+          {
+            "id": "calculated_built_area_of_buildings",
+            "type": "DOUBLE",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "label": "Superf. calc. plantas edificios",
+            "fieldsize": "25",
+            "helptext": "Superficie calculada a partir de las Plantas de los Edificios",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            }
+          },
+          {
+            "id": "heated_area",
+            "type": "DOUBLE",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "label": "Área climatizada",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            }
+          },
+          {
+            "id": "cooled_area",
+            "type": "DOUBLE",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "label": "Área refrigerada",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            }
+          },
+          {
+            "id": "ventilated_area",
+            "type": "DOUBLE",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "label": "Área ventilada",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            }
+          },
+          {
+            "id": "illuminated_area",
+            "type": "DOUBLE",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "label": "Área iluminada",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            }
+          },
+          {
+            "id": "perimeter_meters",
+            "type": "DOUBLE",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "label": "perímetro (metros)",
+            "fieldsize": "50",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            }
+          },
+          {
+            "id": "calculated_perimeter_meters_of_vallado",
+            "type": "DOUBLE",
+            "default": "",
+            "value": null,
+            "refreshonchange": false,
+            "label": "Perímetro de vallado calculado metros",
+            "fieldsize": "50",
+            "helptext": "Perímetro calculado a partir de los El. Urbanización de tipo \"Vallado\"",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            }
+          }
+        ],
+        "bim": false,
+        "idcaseusebim": null,
+        "synoptic": false,
+        "styles": {
+          "borderColor": "",
+          "backgroundColor": ""
+        },
+        "hidecondition": true
+      },
+      {
+        "id": 3226,
+        "name": "Datos de la construcción",
+        "forceunfolded": true,
+        "idtab": 47,
+        "gallery": false,
+        "map": false,
+        "idcaseusemap": null,
+        "graph": false,
+        "groupsize": "50",
+        "fields": [
+          {
+            "id": "building_date",
+            "type": "HOUR",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Fecha de construcción",
+            "fieldsize": "50",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false,
+              "validatedate": {
+                "type": "NONE",
+                "value": null,
+                "msg": "La fecha debe ser mayor a la fecha seleccionada",
+                "lock": true
+              }
+            }
+          },
+          {
+            "id": "id_conservation_status",
+            "type": "COMBO",
+            "default": [],
+            "value": [],
+            "refreshonchange": false,
+            "label": "Estado de conservación",
+            "fieldsize": "50",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            },
+            "combo": {
+              "literal": "conservation_status_text",
+              "parent": "",
+              "simple": true,
+              "hasParent": false,
+              "combowaitparent": false,
+              "empty": false,
+              "action": {
+                "url": "servicesout/PG_conservation_status/listCombo",
+                "config": {
+                  "page": 1,
+                  "pagesize": 0,
+                  "where": {
+                    "PG_conservation_status": "id in (5, 6, 7, 8, 9,12)"
+                  }
+                },
+                "data": {},
+                "sourcedest": [],
+                "sourcedestsetter": []
+              }
+            }
+          },
+          {
+            "id": "conservation_status_text",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          }
+        ],
+        "bim": false,
+        "idcaseusebim": null,
+        "synoptic": false,
+        "styles": {
+          "borderColor": "",
+          "backgroundColor": ""
+        },
+        "hidecondition": true
+      },
+      {
+        "id": 3225,
+        "name": "Planificación de Mantenimiento",
+        "forceunfolded": true,
+        "idtab": 49,
+        "gallery": false,
+        "map": false,
+        "idcaseusemap": null,
+        "graph": false,
+        "groupsize": "50",
+        "fields": [
+          {
+            "id": "id_usage_level",
+            "type": "COMBO",
+            "default": [],
+            "value": [],
+            "refreshonchange": false,
+            "label": "Uso",
+            "fieldsize": "100",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            },
+            "combo": {
+              "literal": "usage_level_name",
+              "parent": "",
+              "simple": true,
+              "hasParent": false,
+              "combowaitparent": false,
+              "empty": false,
+              "action": {
+                "url": "servicesout/PG_usage_level/listCombo",
+                "config": {
+                  "page": 1,
+                  "pagesize": 0,
+                  "where": {
+                    "PG_usage_level": ""
+                  }
+                },
+                "data": {},
+                "sourcedest": [],
+                "sourcedestsetter": []
+              }
+            }
+          }
+        ],
+        "bim": false,
+        "idcaseusebim": null,
+        "synoptic": false,
+        "styles": {
+          "borderColor": "",
+          "backgroundColor": ""
+        },
+        "hidecondition": true
+      },
+      {
+        "id": 288,
+        "name": "Estado",
+        "forceunfolded": true,
+        "idtab": 50,
+        "gallery": false,
+        "map": false,
+        "idcaseusemap": null,
+        "graph": false,
+        "groupsize": "50",
+        "fields": [
+          {
+            "id": "status",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "id_status",
+            "type": "COMBO",
+            "default": ["1"],
+            "value": [],
+            "refreshonchange": false,
+            "label": "Estado",
+            "fieldsize": "50",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": true,
+              "nospaces": false
+            },
+            "combo": {
+              "literal": "status",
+              "parent": "",
+              "simple": true,
+              "hasParent": false,
+              "combowaitparent": false,
+              "empty": false,
+              "action": {
+                "url": "servicesout/PG_status/listCombo",
+                "config": {
+                  "page": 1,
+                  "pagesize": 0,
+                  "where": {
+                    "PG_status": "id in (1,2)"
+                  }
+                },
+                "data": {},
+                "sourcedest": [],
+                "sourcedestsetter": []
+              }
+            }
+          },
+          {
+            "id": "change_status",
+            "type": "HOUR",
+            "default": "2026-07-09T10:14:54",
+            "value": "2026-07-09T10:14:54",
+            "refreshonchange": false,
+            "label": "Fecha del último cambio de estado",
+            "fieldsize": "50",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false,
+              "validatedate": {
+                "type": "NONE",
+                "value": null,
+                "msg": "Fecha mayor que",
+                "lock": true
+              }
+            }
+          }
+        ],
+        "bim": false,
+        "idcaseusebim": null,
+        "synoptic": false,
+        "styles": {
+          "borderColor": "",
+          "backgroundColor": ""
+        },
+        "hidecondition": true
+      },
+      {
+        "id": 5545,
+        "name": "Gestión ambiental",
+        "forceunfolded": true,
+        "idtab": 51,
+        "gallery": false,
+        "map": false,
+        "idcaseusemap": null,
+        "graph": false,
+        "groupsize": "50",
+        "fields": [
+          {
+            "id": "usage_level_name",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "usage_level_code",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "id_environment_sensitivity",
+            "type": "COMBO",
+            "default": [],
+            "value": [],
+            "refreshonchange": false,
+            "label": "Sensibilidad del medio",
+            "fieldsize": "100",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false
+            },
+            "combo": {
+              "literal": "environment_sensitivity_name",
+              "parent": "",
+              "simple": true,
+              "hasParent": false,
+              "combowaitparent": false,
+              "empty": false,
+              "action": {
+                "url": "servicesout/PG_environment_sensitivity/listCombo",
+                "config": {
+                  "page": 1,
+                  "pagesize": 0,
+                  "where": {
+                    "PG_environment_sensitivity": ""
+                  }
+                },
+                "data": {},
+                "sourcedest": [],
+                "sourcedestsetter": []
+              }
+            }
+          },
+          {
+            "id": "environment_sensitivity_code",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          },
+          {
+            "id": "environment_sensitivity_name",
+            "type": "HIDDEN",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "fieldsize": "50",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false
+          }
+        ],
+        "bim": false,
+        "idcaseusebim": null,
+        "synoptic": false,
+        "styles": {
+          "borderColor": "",
+          "backgroundColor": ""
+        },
+        "hidecondition": true
+      },
+      {
+        "id": 7820,
+        "name": "Información del PGOU",
+        "forceunfolded": true,
+        "idtab": 52,
+        "gallery": false,
+        "map": false,
+        "idcaseusemap": null,
+        "graph": false,
+        "groupsize": "100",
+        "fields": [
+          {
+            "id": "pgou_code",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Código del PGOU",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 20,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "pgou_name",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Nombre del PGOU",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 100,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "pgou_approval_date",
+            "type": "HOUR",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Fecha de aprobación del PGOU",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "nospaces": false,
+              "validatedate": {
+                "type": "NONE",
+                "value": null,
+                "msg": "",
+                "lock": true
+              }
+            }
+          },
+          {
+            "id": "pgou_advance",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "avance de PGOU",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 10,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "pgou_web_link",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Enlace al PGOU",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 255,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "pgou_order_scope_name",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Ámbito de Ordenación",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 50,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "pgou_land_classification_name",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Clasificación del suelo",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 50,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "pgou_land_category_name",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Categoría del suelo",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 50,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "pgou_urban_equipment_name",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Equipamiento",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 50,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "pgou_endowment_name",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Sistemas/Dotaciones",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 50,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "pgou_use_type_name",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Tipo de uso",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 50,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          },
+          {
+            "id": "pgou_use_subtype_name",
+            "type": "STRING",
+            "default": "",
+            "value": "",
+            "refreshonchange": false,
+            "label": "Prueba MPM 3 Traducciones  31102024 ***",
+            "fieldsize": "25",
+            "helptext": "",
+            "helpvisibleedit": true,
+            "helpvisibleread": false,
+            "enablePrefiltering": false,
+            "enableAutocomplete": false,
+            "blank": false,
+            "boldfont": true,
+            "fontstyleitalic": false,
+            "fonttextdecunderline": false,
+            "fontcolor": "",
+            "fontsize": "",
+            "fixed": false,
+            "validation": {
+              "readonly": false,
+              "required": false,
+              "maxlen": 50,
+              "nospaces": false
+            },
+            "listSimpleAutoComplete": {
+              "actionAutoComplete": {
+                "url": "servicesout/PG_vheadquarter/listSimpleAutoComplete",
+                "config": {}
+              }
+            }
+          }
+        ],
+        "bim": false,
+        "idcaseusebim": null,
+        "synoptic": false,
+        "styles": {
+          "borderColor": "",
+          "backgroundColor": ""
+        },
+        "hidecondition": true
+      },
+      {
+        "id": 16900,
+        "name": "BIM",
+        "forceunfolded": true,
+        "idtab": 5,
+        "gallery": false,
+        "map": false,
+        "idcaseusemap": null,
+        "graph": false,
+        "groupsize": "100",
+        "fields": [],
+        "bim": true,
+        "idcaseusebim": 21,
+        "synoptic": false,
+        "styles": {
+          "borderColor": "",
+          "backgroundColor": ""
+        },
+        "hidecondition": true
+      },
+      {
+        "id": 19563,
+        "name": "Gráficos",
+        "forceunfolded": false,
+        "idtab": 46,
+        "gallery": false,
+        "map": false,
+        "idcaseusemap": null,
+        "graph": true,
+        "groupsize": "100",
+        "fields": [],
+        "bim": false,
+        "idcaseusebim": null,
+        "synoptic": false,
+        "styles": {
+          "borderColor": "",
+          "backgroundColor": ""
+        },
+        "hidecondition": true
+      },
+      {
+        "id": 19564,
+        "name": "Gráficos",
+        "forceunfolded": true,
+        "idtab": 5,
+        "gallery": false,
+        "map": false,
+        "idcaseusemap": null,
+        "graph": true,
+        "groupsize": "100",
+        "fields": [],
+        "bim": false,
+        "idcaseusebim": null,
+        "synoptic": false,
+        "styles": {
+          "borderColor": "",
+          "backgroundColor": ""
+        },
+        "hidecondition": true
+      },
+      {
+        "name": "Características técnicas",
+        "forceunfolded": false,
+        "gallery": false,
+        "graph": false,
+        "groupsize": "100",
+        "idtab": null,
+        "map": false,
+        "fields": []
+      }
+    ]
+  }
+}
