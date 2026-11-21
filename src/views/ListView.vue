@@ -9,6 +9,11 @@
       <span class="record-count">{{ records.length }} registros</span>
     </div>
 
+    <div v-if="isDevelopment" class="performance-controls">
+      <el-button @click="addTestRows">Añadir 500 filas de prueba</el-button>
+      <span>Solo en desarrollo; los datos se pierden al recargar.</span>
+    </div>
+
     <ValidationSummary :items="feedbackItems" @select="focusFeedback" />
 
     <TableComponent
@@ -50,6 +55,9 @@ import { useUnsavedChangesGuard } from '@/composables/useUnsavedChangesGuard'
 import { useFormFeedback, type FormFeedbackItem } from '@/composables/useFormFeedback'
 import { useRecordsStore } from '@/stores/records'
 
+const isDevelopment = import.meta.env.DEV
+let testRowSequence = 0
+
 const router = useRouter()
 const recordsStore = useRecordsStore()
 const { records } = storeToRefs(recordsStore)
@@ -66,6 +74,28 @@ const tableRef = ref<InstanceType<typeof TableComponent> | null>(null)
 const isSaving = ref(false)
 const feedback = useFormFeedback()
 const { items: feedbackItems } = feedback
+
+function addTestRows() {
+  const existingIds = new Set(records.value.map((record) => record.id))
+  const testRows: RecordItem[] = []
+  for (let index = 0; index < 500; index++) {
+    let id: string
+    do {
+      id = `PRUEBA-${++testRowSequence}`
+    } while (existingIds.has(id))
+    existingIds.add(id)
+    testRows.push({
+      id,
+      date: '2026-10-28',
+      name: `Cliente de prueba ${testRowSequence}`,
+      address: 'Calle Mayor 12, Madrid',
+      country: 'España',
+      region: 'Madrid',
+      office: 'Oficina Centro',
+    })
+  }
+  records.value.push(...testRows)
+}
 
 function fieldLabel(key: RecordFieldKey) {
   return recordFields.find((field) => field.key === key)?.label ?? key
@@ -199,6 +229,16 @@ h1 {
   padding-bottom: 3px;
   color: #667876;
   font-size: 14px;
+}
+
+.performance-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  color: #667876;
+  font-size: 13px;
 }
 
 .table-footer {
