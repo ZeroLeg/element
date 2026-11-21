@@ -13,6 +13,8 @@ pnpm install
 pnpm dev
 ```
 
+El monitor de rendimiento solo se activa cuando `.env` contiene `VITE_APP_MODE=develop`. Con `VITE_APP_MODE=produccion` o sin esa variable, se considera producción y el monitor permanece desactivado.
+
 ## Comprobaciones
 
 ```sh

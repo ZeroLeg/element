@@ -9,7 +9,9 @@ import { createPerformanceMonitor } from './plugins/performanceMonitor'
 
 const app = createApp(App)
 
-if (import.meta.env.DEV) {
+const appMode = (import.meta.env.VITE_APP_MODE ?? 'produccion').trim().toLowerCase()
+
+if (appMode === 'develop') {
   app.use(createPerformanceMonitor())
 }
 
